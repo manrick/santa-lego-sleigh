@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_version">
+    <sn_aia_version action="INSERT_OR_UPDATE">
+        <condition/>
+        <instructions>Step 1: Check that all incoming parameters are available:
+- angle: This is the angle of motion of the Lego wheel. This is a number between 0 and 5000
+- wheel_a_speed: speed primary wheel - It defines the speed of the rotation of motor A. The speed is a numeric value between 0.0 and 1.0
+- wheel_b_speed: speed secondary wheel - It defines the speed of the rotation of motor B. The speed is a numeric value between 0.0 and 1.0
+- clockwise: it defines the direction of the turn motion. In case if left turn the value is 0. In case of right turn, the value is 1. If the user writes left, accept it as 0. If the user writes right, accept it as 1.
+You can continue with the Step 2 if all parameters are available. Otherwise ask them from the user.
+Step 2: Execute subflow which is responsible for the turn action.
+Step 3: Process the output of the subflow and send useful information back to the user, using Christmas related context.</instructions>
+        <state>published</state>
+        <sys_class_name>sn_aia_version</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-15 16:51:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2a73a9241b51721085b12fc8b04bcbd8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>V1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sn_aia_version_2a73a9241b51721085b12fc8b04bcbd8</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-18 07:37:13</sys_updated_on>
+        <target_id>b2712dec1b11721085b12fc8b04bcbf8</target_id>
+        <target_table>sn_aia_agent</target_table>
+        <version_name>V1</version_name>
+        <version_number>1</version_number>
+    </sn_aia_version>
+</record_update>

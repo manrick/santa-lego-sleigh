@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2016000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>5042a3cc1b51be5017814338b04bcb29</copied_from>
+        <copied_from_name>Lego controller - start vehicle </copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>lego_controller__start_vehicle_without_timer</internal_name>
+        <label_cache>[{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"1 - Lego Controller➛REST API response","type":"string","base_type":"string","usedInstances":{"bbd6ed24-adac-4686-8b95-69bbc5ad5ce2":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}}]</label_cache>
+        <master_snapshot>cd6ce8dc1b99be5017814338b04bcb17</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Lego controller - start vehicle without timer</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:10:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>431c60dc1b99be5017814338b04bcb46</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Lego controller - start vehicle without timer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sys_hub_flow_431c60dc1b99be5017814338b04bcb46</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:29</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-11-14 19:44:29">94d3b0101b1dbe5017814338b04bcb50</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_variable_value action="delete_multiple" query="document_key=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_431c60dc1b99be5017814338b04bcb46^id=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=431c60dc1b99be5017814338b04bcb46^sys_idNOT IN031c60dc1b99be5017814338b04bcb47"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>431c60dc1b99be5017814338b04bcb46</id>
+        <name>Lego controller - start vehicle without timer</name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:10:50</sys_created_on>
+        <sys_id>031c60dc1b99be5017814338b04bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:10:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=031c60dc1b99be5017814338b04bcb47"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=431c60dc1b99be5017814338b04bcb46^sys_idNOT IN1f1c60dc1b99be5017814338b04bcb4c,931c60dc1b99be5017814338b04bcb52"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=84b406a6-c674-4b52-a4f7-21ebffe8b897</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>speed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Speed</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</model>
+        <model_id>431c60dc1b99be5017814338b04bcb46</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_431c60dc1b99be5017814338b04bcb46</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:10:50</sys_created_on>
+        <sys_id>1f1c60dc1b99be5017814338b04bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:10:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1f1c60dc1b99be5017814338b04bcb4c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>direction</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Direction</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</model>
+        <model_id>431c60dc1b99be5017814338b04bcb46</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_431c60dc1b99be5017814338b04bcb46</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:10:50</sys_created_on>
+        <sys_id>931c60dc1b99be5017814338b04bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:10:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=931c60dc1b99be5017814338b04bcb52"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=431c60dc1b99be5017814338b04bcb46^sys_idNOT INdcc37cdc1bd9be5017814338b04bcbef"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=50430bba-76e7-41c5-b11d-f63d67fa5c70</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</model>
+        <model_id>431c60dc1b99be5017814338b04bcb46</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_431c60dc1b99be5017814338b04bcb46</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:44:13</sys_created_on>
+        <sys_id>dcc37cdc1bd9be5017814338b04bcbef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dcc37cdc1bd9be5017814338b04bcbef"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=431c60dc1b99be5017814338b04bcb46^sys_idNOT INdb1c60dc1b99be5017814338b04bcb62"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Lego Controller">b412eb8c1b51be5017814338b04bcbf3</action_type>
+        <action_type_parent display_value="Lego Controller">116cdf801b51be5017814338b04bcbb8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>b412eb8c1b51be5017814338b04bcbf3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:10:51</sys_created_on>
+        <sys_id>db1c60dc1b99be5017814338b04bcb62</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 19:46:04</sys_updated_on>
+        <ui_id>f66e9a16-d42c-49ab-8e1d-ca812bf99835</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Y227bOBCGX6XQtWnwJJHyXZAgQIHtFth0c1MUBg9Dh6gsuTokzQZ596Vs2VYc24kBpy0CX3o05Pxz+EDSXx8ib6NRJCShoKUhOiYaYkyCgTMmNebaaJdEgyhXUwieU2/HFZS3UAbbrcqa1ohTwrTCnGhiBU2xjDWhznTLUxpcra9mmbq/7lacXQ8/fbwIdnPjM1tCHo2+fhtEM1WGMHXYfPSw8em1OjOlIQuuYfsPV0uh28TX97PWVoKDEMRAZ/qrW/9Pz16UtpVEBhH8rCG3ELQ4lVUwiKYqt6ouyvtoVJdNMJSg7Oc8u1953Pi8DvtFre/Pyv8XgjI66MUdRWDMWE0g+PXs465km7m4C1WrqxDM1E0Ji53NTeENVItKWXCqyerzvm3h8HlW+yJfLKmVzjZjmyJrpvnfi2JFq52WTQuWpgq6YNbWoM2qS9Fd3RR3q4Jd+nxeru5jVhiV9VxBlebm0kPWNnTemEGk6rr0uqlbuQ9R4788783CuK07kME0qBlP1Wzm88l4Vha3fq4gJDQdTrLwY+iy4i4or/wkHyrTlmEY+qaGl8F+MTdfq9K3NfkUtpkXuvH/5v5HAx9boVoRaThIlOKYIS5BIxULgyQhWmPg1HASPQ6i6r46z1RVrYsYkhj/aNoSLEraFW+8aES7xJR+Vp8FUbfQ1elx0IGJ470Db9azvUiqB+WkeI7d3HYYcq9QsETubClhU1KHWhWanE82OLtaGjvI6LEgkxjjp5jtoOv4TP0alHZAs6ryU2JWdf4luBiqU0YtR4ANIB7LBEkhEqSTGAtJYxEnyVvgQgilbtewYryeTetL2CTm4aFqdJv5cPX18fE5RLvcDuTqZalLri56WrfIP4Qutp+uznLC6w/HywIxScwpkkxwxJnESKVMIJtiRqkWCaXqLfCye2eWreez9vNz/Xbdjw2IDufl5dhLXr4sgj+Vcggl/ETJe6AENJOSMIyEwyocQqlBShuFWJwqiomKKTZvQUm6d1JF74KUT7JjY/Jy8NV1rYu+IeYQUOITKO8BFJMkBksiEXGJRRynCUqd4UhTEUNCeAJYv9HjZs+s6vVsVjMAG3L3UxXmatuNbe6x/7a2djn8BfSCzCVSV22ID2udO+QfglhyQuw9IOa0TgwzBnElw43NMInSRHNkBTCnuBaC/oYHkduc0QpMEWbrCWTHOJVelvEUob6OnQIPwUicMHoPGMVWUemcQSKJKeJc0PDwoRQlqQaJpaOa8TfASLJYhatjmN90259gvSudCbX8fuerI1/rXiFgCdB5T8EWUYdAI0/QvAdouDLUOeZQOILCO0gRi9I4NshygZkRlHF+zHfQt/8BNUhwpFYaAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=db1c60dc1b99be5017814338b04bcb62"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=431c60dc1b99be5017814338b04bcb46^sys_idNOT INfcc3fcdc1bd9be5017814338b04bcb11"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">53c370101b1dbe5017814338b04bcb33</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</flow>
+        <flow_variables_assigned/>
+        <generation_source>flowRecommendation</generation_source>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>output</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:44:15</sys_created_on>
+        <sys_id>fcc3fcdc1bd9be5017814338b04bcb11</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:26</sys_updated_on>
+        <ui_id>bbd6ed24-adac-4686-8b95-69bbc5ad5ce2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/62PQQqDMBBF75K1FrRWjLsuu5duSpExie3QNAlJVES8exMq1AN0N/Pm8Zm/ED14M3jX6LNz+FCkvi1EwVuQejuRhIwghwiWpS9LQSErU17kLC0odGklMp4yqLK86ymtjqeDFc63YLANg9HKiXUNIRydkTBf/5HFnii5FfHbe0Ics2j8mXkcQ3IPMlgBo4rFvsoIFqGTYlu5YOhQqyayy87jc+iObI8mbV+91NOPrR/m4QSyNgEAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>speed</element>
+        <help/>
+        <hint/>
+        <label>Speed</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_431c60dc1b99be5017814338b04bcb46</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:10:50</sys_created_on>
+        <sys_id>571c60dc1b99be5017814338b04bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:10:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>direction</element>
+        <help/>
+        <hint/>
+        <label>Direction</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_431c60dc1b99be5017814338b04bcb46</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:10:50</sys_created_on>
+        <sys_id>971c60dc1b99be5017814338b04bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:10:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_431c60dc1b99be5017814338b04bcb46"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_431c60dc1b99be5017814338b04bcb46</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:44:13</sys_created_on>
+        <sys_id>90c3bcdc1bd9be5017814338b04bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_431c60dc1b99be5017814338b04bcb46"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=19345000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>5042a3cc1b51be5017814338b04bcb29</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>lego_controller__start_vehicle_without_timer</internal_name>
+        <label_cache>[{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"1 - Lego Controller➛REST API response","type":"string","base_type":"string","usedInstances":{"bbd6ed24-adac-4686-8b95-69bbc5ad5ce2":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}}]</label_cache>
+        <master>true</master>
+        <name>Lego controller - start vehicle without timer</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:12:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd6ce8dc1b99be5017814338b04bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:28</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_cd6ce8dc1b99be5017814338b04bcb17^id=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cd6ce8dc1b99be5017814338b04bcb17^sys_idNOT IN896ce8dc1b99be5017814338b04bcb18"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cd6ce8dc1b99be5017814338b04bcb17</id>
+        <name>Lego controller - start vehicle without timer</name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:12:04</sys_created_on>
+        <sys_id>896ce8dc1b99be5017814338b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:12:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=896ce8dc1b99be5017814338b04bcb18"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=cd6ce8dc1b99be5017814338b04bcb17^sys_idNOT IN5d6ce8dc1b99be5017814338b04bcb24,896ce8dc1b99be5017814338b04bcb19"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>direction</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Direction</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - start vehicle without timer">cd6ce8dc1b99be5017814338b04bcb17</model>
+        <model_id>cd6ce8dc1b99be5017814338b04bcb17</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cd6ce8dc1b99be5017814338b04bcb17</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:12:04</sys_created_on>
+        <sys_id>5d6ce8dc1b99be5017814338b04bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:12:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5d6ce8dc1b99be5017814338b04bcb24"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=84b406a6-c674-4b52-a4f7-21ebffe8b897</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>speed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Speed</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - start vehicle without timer">cd6ce8dc1b99be5017814338b04bcb17</model>
+        <model_id>cd6ce8dc1b99be5017814338b04bcb17</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cd6ce8dc1b99be5017814338b04bcb17</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:12:04</sys_created_on>
+        <sys_id>896ce8dc1b99be5017814338b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:12:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=896ce8dc1b99be5017814338b04bcb19"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=cd6ce8dc1b99be5017814338b04bcb17^sys_idNOT IN6bc370101b1dbe5017814338b04bcb86"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=50430bba-76e7-41c5-b11d-f63d67fa5c70</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Lego controller - start vehicle without timer">cd6ce8dc1b99be5017814338b04bcb17</model>
+        <model_id>cd6ce8dc1b99be5017814338b04bcb17</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_cd6ce8dc1b99be5017814338b04bcb17</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:44:27</sys_created_on>
+        <sys_id>6bc370101b1dbe5017814338b04bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6bc370101b1dbe5017814338b04bcb86"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=cd6ce8dc1b99be5017814338b04bcb17^sys_idNOT INdd6ce8dc1b99be5017814338b04bcb3d"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Lego Controller">b412eb8c1b51be5017814338b04bcbf3</action_type>
+        <action_type_parent display_value="Lego Controller">116cdf801b51be5017814338b04bcbb8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>b412eb8c1b51be5017814338b04bcbf3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lego controller - start vehicle without timer">cd6ce8dc1b99be5017814338b04bcb17</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:12:04</sys_created_on>
+        <sys_id>dd6ce8dc1b99be5017814338b04bcb3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:12:04</sys_updated_on>
+        <ui_id>f66e9a16-d42c-49ab-8e1d-ca812bf99835</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Y227bOBCGX6XQtWnwJJHyXZAgQIHtFth0c1MUBg9Dh6gsuTokzQZ596Vs2VYc24kBpy0CX3o05Pxz+EDSXx8ib6NRJCShoKUhOiYaYkyCgTMmNebaaJdEgyhXUwieU2/HFZS3UAbbrcqa1ohTwrTCnGhiBU2xjDWhznTLUxpcra9mmbq/7lacXQ8/fbwIdnPjM1tCHo2+fhtEM1WGMHXYfPSw8em1OjOlIQuuYfsPV0uh28TX97PWVoKDEMRAZ/qrW/9Pz16UtpVEBhH8rCG3ELQ4lVUwiKYqt6ouyvtoVJdNMJSg7Oc8u1953Pi8DvtFre/Pyv8XgjI66MUdRWDMWE0g+PXs465km7m4C1WrqxDM1E0Ji53NTeENVItKWXCqyerzvm3h8HlW+yJfLKmVzjZjmyJrpvnfi2JFq52WTQuWpgq6YNbWoM2qS9Fd3RR3q4Jd+nxeru5jVhiV9VxBlebm0kPWNnTemEGk6rr0uqlbuQ9R4788783CuK07kME0qBlP1Wzm88l4Vha3fq4gJDQdTrLwY+iy4i4or/wkHyrTlmEY+qaGl8F+MTdfq9K3NfkUtpkXuvH/5v5HAx9boVoRaThIlOKYIS5BIxULgyQhWmPg1HASPQ6i6r46z1RVrYsYkhj/aNoSLEraFW+8aES7xJR+Vp8FUbfQ1elx0IGJ470Db9azvUiqB+WkeI7d3HYYcq9QsETubClhU1KHWhWanE82OLtaGjvI6LEgkxjjp5jtoOv4TP0alHZAs6ryU2JWdf4luBiqU0YtR4ANIB7LBEkhEqSTGAtJYxEnyVvgQgilbtewYryeTetL2CTm4aFqdJv5cPX18fE5RLvcDuTqZalLri56WrfIP4Qutp+uznLC6w/HywIxScwpkkxwxJnESKVMIJtiRqkWCaXqLfCye2eWreez9vNz/Xbdjw2IDufl5dhLXr4sgj+Vcggl/ETJe6AENJOSMIyEwyocQqlBShuFWJwqiomKKTZvQUm6d1JF74KUT7JjY/Jy8NV1rYu+IeYQUOITKO8BFJMkBksiEXGJRRynCUqd4UhTEUNCeAJYv9HjZs+s6vVsVjMAG3L3UxXmatuNbe6x/7a2djn8BfSCzCVSV22ID2udO+QfglhyQuw9IOa0TgwzBnElw43NMInSRHNkBTCnuBaC/oYHkduc0QpMEWbrCWTHOJVelvEUob6OnQIPwUicMHoPGMVWUemcQSKJKeJc0PDwoRQlqQaJpaOa8TfASLJYhatjmN90259gvSudCbX8fuerI1/rXiFgCdB5T8EWUYdAI0/QvAdouDLUOeZQOILCO0gRi9I4NshygZkRlHF+zHfQt/8BNUhwpFYaAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dd6ce8dc1b99be5017814338b04bcb3d"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=cd6ce8dc1b99be5017814338b04bcb17^sys_idNOT IN37c370101b1dbe5017814338b04bcb91"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">53c370101b1dbe5017814338b04bcb33</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lego controller - start vehicle without timer">cd6ce8dc1b99be5017814338b04bcb17</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>output</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:44:27</sys_created_on>
+        <sys_id>37c370101b1dbe5017814338b04bcb91</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:28</sys_updated_on>
+        <ui_id>bbd6ed24-adac-4686-8b95-69bbc5ad5ce2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/61Ty27bMBD8F54tQ4rkV25BggAp0hio3VyKQliSK5sNRSokZcc1/O9dWvKj6bU37XAfM7OrPbNtaNrgl/bOe7Uy7PbHnhmokd32T2zANqDbCOz31XiMM8jGiSxuRFLMgCdTzGQiYJrd8Go2m+ajoUMfSmhUSR+NNR4PB2oilW807F7/Ry+xVlo6jGx/DlgDjggHdOx2z5ShDwP6WZk3GvNPspKESiHyiZAi43LGcZRmk2lW5PmUpwUXHCuq0sBRU+r8ZMJnU8KuifEvb00fPfclXxbzF4Ksk5FSNmD4EdBIpMkVaI8DVoOREKzbnRGHIOdGX4A1Cen41/Dh1W+aVaRpGjMrJDUCu9dzWPYGd3D1AAEWwbUitA5PRlgl0Hc+SKyg1eH+GusS5k1QpOlYEoDrU7XVbW1eOhfYucFpn4S0nkhgE6VG7r2QarG2228nlo/KHF3pH7UVoM8RhOAUb0Pks2etWv5lcRd/Mhk11jStrKFplFmVjbMbdZxAhOvhSlMwrLTdErN430MQUd2Q7IfhI+EPR/gVnIpSv1IbKo7Dvhv13uJTPJdRWuQp55BMxjhJikyMEp7RpVbjXI4nFYzEJGWHAfM7f6/B+4tJtJ3yvY0SO8t6c8rO31ginGrCHZHaYO/DIV6piT9lt5VNz+28OKE8SVhG7OkqT+7oRJW4hrbWvUXxF+zwB3hBCnXyAwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>speed</element>
+        <help/>
+        <hint/>
+        <label>Speed</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cd6ce8dc1b99be5017814338b04bcb17</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:12:04</sys_created_on>
+        <sys_id>956ce8dc1b99be5017814338b04bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:12:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>direction</element>
+        <help/>
+        <hint/>
+        <label>Direction</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cd6ce8dc1b99be5017814338b04bcb17</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:12:04</sys_created_on>
+        <sys_id>956ce8dc1b99be5017814338b04bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:12:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_cd6ce8dc1b99be5017814338b04bcb17</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:44:27</sys_created_on>
+        <sys_id>2bc370101b1dbe5017814338b04bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cd6ce8dc1b99be5017814338b04bcb17"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>431c60dc1b99be5017814338b04bcb46</sys_id>
+        <latest_snapshot>cd6ce8dc1b99be5017814338b04bcb17</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch1-hotfix1a-09-24-2025_10-14-2025_2100.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=431c60dc1b99be5017814338b04bcb46"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=431c60dc1b99be5017814338b04bcb46^sys_idNOT IN116ce8dc1b99be5017814338b04bcb57"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"116ce8dc1b99be5017814338b04bcb57","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</plan_id>
+        <snapshot>25d929241b91721085b12fc8b04bcbc7</snapshot>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:12:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>116ce8dc1b99be5017814338b04bcb57</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:44:28</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

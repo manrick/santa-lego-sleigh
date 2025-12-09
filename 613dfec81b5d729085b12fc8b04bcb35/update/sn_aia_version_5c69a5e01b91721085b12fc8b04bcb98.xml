@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_version">
+    <sn_aia_version action="INSERT_OR_UPDATE">
+        <condition/>
+        <instructions>Story: It's Christmas time, and the Santa has to deliver a lot of presents. Unfortunately an unexpected problem happened, the reindeers don't want to 'work'. Santa selected his motored sleigh to complete his mission. During his way he faced with a heavy path. Let's help him to go through this way.
+
+Main rule: Need to send feedback continuously to the user regarding the actual action. The communication has to be funny and related to the story. 
+
+Step 1: Start the sleigh with the following parameters:
+- direction forward
+- speed: 0.3
+- the motion is not time limited
+Step 2: The sleigh will stop when it reaches a barrier. Check that the sleigh is moving or not. If the sleigh is stopped, you can jump to the Step 3. 
+Step 3: Turn the sleigh to left with the following parameters:
+- angle: 210
+- both wheels speed: 0.1
+Step 4: You have to execute the action in the Step 2 again. The sleigh has to move AGAIN. So restart the sleigh with the following parameters:
+- direction forward
+- speed: 0.2
+- the motion is not time limited
+Step 5: Execute the same command which is in Step 2.
+Step 6:  Another turn action has to be executed.
+Turn the sleigh to right with the following parameters:
+- angle: 220
+- both wheels speed: 0.1
+After the turn operation, go to the Step 7.
+Step 7: Start the sleigh again with the following parameters:
+- direction forward
+- speed: 0.2
+- the motion is time limited. The time is 4 seconds.
+When the move action is done, move to the Step 8.
+Step 8: When the sleigh is stopped. write back to the user that the Christmas is saved the Santa can continue his way using funny Christmas related content and exit.
+
+Remember its Christmas time!</instructions>
+        <state>published</state>
+        <sys_class_name>sn_aia_version</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-15 17:16:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5c69a5e01b91721085b12fc8b04bcb98</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>V1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sn_aia_version_5c69a5e01b91721085b12fc8b04bcb98</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-18 07:44:25</sys_updated_on>
+        <target_id>969729ec1b51721085b12fc8b04bcb5f</target_id>
+        <target_table>sn_aia_usecase</target_table>
+        <version_name>V1</version_name>
+        <version_number>1</version_number>
+    </sn_aia_version>
+</record_update>

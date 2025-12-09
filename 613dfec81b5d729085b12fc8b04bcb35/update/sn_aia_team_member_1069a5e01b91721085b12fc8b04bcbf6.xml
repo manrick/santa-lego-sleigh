@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_team_member">
+    <sn_aia_team_member action="INSERT_OR_UPDATE">
+        <agent display_value="Lego sleigh controller agent for checking movement">e8ece0501bd9be5017814338b04bcb6e</agent>
+        <sys_class_name>sn_aia_team_member</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-15 17:17:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1069a5e01b91721085b12fc8b04bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sn_aia_team_member_1069a5e01b91721085b12fc8b04bcbf6</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-15 17:17:00</sys_updated_on>
+        <team display_value="Santa Claus sleigh controller Agent">d869a5e01b91721085b12fc8b04bcb93</team>
+    </sn_aia_team_member>
+</record_update>

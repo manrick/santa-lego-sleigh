@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_usecase">
+    <sn_aia_usecase action="INSERT_OR_UPDATE">
+        <applicability_script><![CDATA[/** 
+ * Function to process inputs related to ServiceNow change request operations 
+ * 
+ * @param {Object} inputs - The input parameters object 
+ * @param {string} inputs.objective - The purpose or goal of the operation 
+ * @param {string} inputs.execution_plan_id - Unique identifier for the execution plan 
+ * @param {Object} inputs.context - Context information about the ServiceNow change request 
+ * @param {string} inputs.context.url - The URL of the change request in Service Operations Workspace 
+ * @param {string} inputs.context.table - The ServiceNow table name (e.g., 'change_request') 
+ * @param {string} inputs.context.record_sys_id - The sys ID of the record 
+ * @param {string} inputs.context.route - The route type (e.g., 'record') 
+ * @param {string} inputs.context.additional_context - Additional contextual information in JSON format 
+ * @param {string} inputs.context.experience - The UI experience name (e.g., 'Service Operations Workspace') 
+ * @param {string} inputs.context.number - The request number 
+ * @param {string} inputs.context.portal - The portal ID 
+ * @param {string} inputs.context.device_type - The device type from which the experience is accessed, e.g.'mweb' 
+ * @param {string} inputs.context.deployment_id - The unique identifier for the assistant deployment 
+ * @param {string} inputs.context.assistant_type - The type of assistant, e.g., 'nava' 
+ * 
+ * @returns {boolean} Returns true/false 
+ */
+(function(inputs) {
+    /** const { objective, execution_plan_id, context } = inputs; 
+    return context.table == 'incident' ; */
+    return false;
+})(inputs);]]></applicability_script>
+        <base_plan>Story: It's Christmas time, and the Santa has to deliver a lot of presents. Unfortunately an unexpected problem happened, the reindeers don't want to 'work'. Santa selected his motored sleigh to complete his mission. During his way he faced with a heavy path. Let's help him to go through this way.
+
+Main rule: Need to send feedback continuously to the user regarding the actual action. The communication has to be funny and related to the story. 
+
+Step 1: Start the sleigh with the following parameters:
+- direction forward
+- speed: 0.3
+- the motion is not time limited
+Step 2: The sleigh will stop when it reaches a barrier. Check that the sleigh is moving or not. If the sleigh is stopped, you can jump to the Step 3. 
+Step 3: Turn the sleigh to left with the following parameters:
+- angle: 210
+- both wheels speed: 0.1
+Step 4: You have to execute the action in the Step 2 again. The sleigh has to move AGAIN. So restart the sleigh with the following parameters:
+- direction forward
+- speed: 0.2
+- the motion is not time limited
+Step 5: Execute the same command which is in Step 2.
+Step 6:  Another turn action has to be executed.
+Turn the sleigh to right with the following parameters:
+- angle: 220
+- both wheels speed: 0.1
+After the turn operation, go to the Step 7.
+Step 7: Start the sleigh again with the following parameters:
+- direction forward
+- speed: 0.2
+- the motion is time limited. The time is 4 seconds.
+When the move action is done, move to the Step 8.
+Step 8: When the sleigh is stopped. write back to the user that the Christmas is saved the Santa can continue his way using funny Christmas related content and exit.
+
+Remember its Christmas time!</base_plan>
+        <description>This agent workflow is steering Santa's sleigh down a dangerous path.</description>
+        <execution_mode>copilot</execution_mode>
+        <internal_name>global.x_tsigh_legomgmt.Santa Claus sleigh controller Agent</internal_name>
+        <name>Santa Claus sleigh controller Agent</name>
+        <parent/>
+        <record_type>custom</record_type>
+        <source_id/>
+        <strategy display_value="ReActive Planner">b264c470ff1022106c36ffffffffff67</strategy>
+        <sys_class_name>sn_aia_usecase</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-15 17:16:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>969729ec1b51721085b12fc8b04bcb5f</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Santa Claus sleigh controller Agent</sys_name>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sn_aia_usecase_969729ec1b51721085b12fc8b04bcb5f</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-18 07:44:25</sys_updated_on>
+        <team display_value="Santa Claus sleigh controller Agent">d869a5e01b91721085b12fc8b04bcb93</team>
+    </sn_aia_usecase>
+</record_update>

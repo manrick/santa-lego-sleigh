@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent_tool_m2m">
+    <sn_aia_agent_tool_m2m action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent display_value="Lego sleigh controller agent start or stop the vehicle">d7e3eb801b91be5017814338b04bcbd6</agent>
+        <description>This tool is responsible for stop the sleigh.</description>
+        <display_output>true</display_output>
+        <document_status/>
+        <execution_mode>autopilot</execution_mode>
+        <inputs>[]</inputs>
+        <max_auto_executions>10</max_auto_executions>
+        <name>Stop Santa's sleigh</name>
+        <output_transformation_strategy>abstract_summary</output_transformation_strategy>
+        <post_processing_script/>
+        <pre_message/>
+        <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:56:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c09674541b1dbe5017814338b04bcb7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Stop Santa's sleigh</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sn_aia_agent_tool_m2m_c09674541b1dbe5017814338b04bcb7c</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 19:45:12</sys_updated_on>
+        <tool display_value="Lego controller - stop vehicle">409674541b1dbe5017814338b04bcb79</tool>
+        <tool_attributes>{}</tool_attributes>
+        <transformation_instructions/>
+    </sn_aia_agent_tool_m2m>
+</record_update>

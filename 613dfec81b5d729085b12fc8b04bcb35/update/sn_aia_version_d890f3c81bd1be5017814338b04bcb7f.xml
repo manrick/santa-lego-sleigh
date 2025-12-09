@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_version">
+    <sn_aia_version action="INSERT_OR_UPDATE">
+        <condition/>
+        <instructions>Step 1: Check that the action is defined or not
+Actions can be the following:
+- start
+- stop
+- start for N seconds
+And similar expressions
+If the action is missing need to ask back that which type of action is necessary to be executed.
+Step 2:  If the action is about to start the sleigh, need to check that all input parameters are available:
+- direction: in case of forward: FW, otherwise BW
+- time: moving time in seconds (only second) - This is mandatory only if the movement action is not continuous, but time limited.
+- speed in a scale between 0.0 and 1.0
+If an input parameter is missing ask it from the user
+If all input parameters are available execute the sleight controller to move the vehicle straight
+If the action is about stop the sleigh, need to jump to Step 3.
+Step 3: Need to execute the tool which is responsible to stop the device
+Step 4: Provide a response to the user using Christmas type content and stop execution.</instructions>
+        <state>published</state>
+        <sys_class_name>sn_aia_version</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 13:50:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d890f3c81bd1be5017814338b04bcb7f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>V1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sn_aia_version_d890f3c81bd1be5017814338b04bcb7f</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-18 07:37:58</sys_updated_on>
+        <target_id>d7e3eb801b91be5017814338b04bcbd6</target_id>
+        <target_table>sn_aia_agent</target_table>
+        <version_name>V1</version_name>
+        <version_number>1</version_number>
+    </sn_aia_version>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent">
+    <sn_aia_agent action="INSERT_OR_UPDATE">
+        <agent_type>internal</agent_type>
+        <applicability_script><![CDATA[/** 
+ * Function to process inputs related to ServiceNow change request operations 
+ * 
+ * @param {Object} inputs - The input parameters object 
+ * @param {string} inputs.objective - The purpose or goal of the operation 
+ * @param {string} inputs.execution_plan_id - Unique identifier for the execution plan 
+ * @param {Object} inputs.context - Context information about the ServiceNow change request 
+ * @param {string} inputs.context.url - The URL of the change request in Service Operations Workspace 
+ * @param {string} inputs.context.table - The ServiceNow table name (e.g., 'change_request') 
+ * @param {string} inputs.context.record_sys_id - The sys ID of the record 
+ * @param {string} inputs.context.route - The route type (e.g., 'record') 
+ * @param {string} inputs.context.additional_context - Additional contextual information in JSON format 
+ * @param {string} inputs.context.experience - The UI experience name (e.g., 'Service Operations Workspace') 
+ * @param {string} inputs.context.number - The request number 
+ * @param {string} inputs.context.portal - The portal ID 
+ * @param {string} inputs.context.device_type - The device type from which the experience is accessed, e.g.'mweb' 
+ * @param {string} inputs.context.deployment_id - The unique identifier for the assistant deployment 
+ * @param {string} inputs.context.assistant_type - The type of assistant, e.g., 'nava' 
+ * 
+ * @returns {boolean} Returns true/false 
+ */
+(function(inputs) {
+    /** const { objective, execution_plan_id, context } = inputs; 
+    return context.table == 'incident' ; */
+    return false;
+})(inputs);]]></applicability_script>
+        <compiled_handbook/>
+        <description>This Lego sleigh controller agent is responsible for checking that the sleigh is moving or not.</description>
+        <external_agent_configuration/>
+        <instructions>Step 1: Execute the subflow which checks that the sleigh is moving or not.
+Step 2. Process the output of the subflow and provide it back to the user, using Christmas related content. The result: false means that the sleigh is not moving.</instructions>
+        <internal_name>global.x_tsigh_legomgmt.Lego sleigh controller agent for checking movement</internal_name>
+        <name>Lego sleigh controller agent for checking movement</name>
+        <parent/>
+        <processing_message/>
+        <proficiency>- Expertly determines the movement status of the Lego sleigh, ensuring that Santa's vehicle is ready to deliver presents on time. The agent specializes in monitoring sleigh activity, providing festive assurance that the sleigh is either dashing through the snow or needs a little Christmas magic to get moving.
+- Utilizes the 'Check that the vehicle is moving or not' subflow to instantly verify whether the sleigh is in motion. This capability enables the agent to detect if Santa's sleigh is stuck on a rooftop or zooming across the night sky, ensuring that Christmas deliveries are not delayed by a stationary sleigh.
+- Processes and interprets the sleigh movement status, delivering the results to users with jolly, Christmas-related humor. Whether the sleigh is stuck in a snowdrift or galloping with reindeer power, the agent ensures that users receive a merry update, helping to save Christmas with every status report.</proficiency>
+        <record_type>custom</record_type>
+        <role>You are an expert Lego sleigh controller agent. Your responsibility is for checking that the current vehicle or sleigh is moving or not.
+It's Christmas time, so all content which you provide back has to be funny and Christmas related. Don't forget, need to save the Christmas.</role>
+        <source_id/>
+        <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
+        <sys_class_name>sn_aia_agent</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:26:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e8ece0501bd9be5017814338b04bcb6e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Lego sleigh controller agent for checking movement</sys_name>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sn_aia_agent_e8ece0501bd9be5017814338b04bcb6e</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-18 07:38:46</sys_updated_on>
+    </sn_aia_agent>
+</record_update>

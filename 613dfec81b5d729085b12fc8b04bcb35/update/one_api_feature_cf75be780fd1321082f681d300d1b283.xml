@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_feature">
+    <one_api_feature action="INSERT_OR_UPDATE">
+        <input_processor display_value="OneExtendGenericCapabilityRequestProcessor">a7eb538353111110c271ddeeff7b12a8</input_processor>
+        <name>cfd16c6feb61a210c946ff45cad0cd58</name>
+        <output_processor display_value="OneExtendCapabilityResponseProcessor">3a90ff027f50121032d293f10d866518</output_processor>
+        <short_description>Auto Generated </short_description>
+        <sys_class_name>one_api_feature</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-16 17:28:00</sys_created_on>
+        <sys_id>cf75be780fd1321082f681d300d1b283</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cfd16c6feb61a210c946ff45cad0cd58</sys_name>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>one_api_feature_cf75be780fd1321082f681d300d1b283</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-16 17:28:00</sys_updated_on>
+    </one_api_feature>
+</record_update>

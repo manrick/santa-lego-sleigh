@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_usecase_config_override">
+    <sn_aia_usecase_config_override action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <run_as_user/>
+        <sys_class_name>sn_aia_usecase_config_override</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-15 17:16:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5869a5e01b91721085b12fc8b04bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sn_aia_usecase_config_override_5869a5e01b91721085b12fc8b04bcbdb</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-15 17:16:59</sys_updated_on>
+        <usecase_configuration display_value="Santa Claus sleigh controller Agent">969729ec1b51721085b12fc8b04bcb5f</usecase_configuration>
+    </sn_aia_usecase_config_override>
+</record_update>

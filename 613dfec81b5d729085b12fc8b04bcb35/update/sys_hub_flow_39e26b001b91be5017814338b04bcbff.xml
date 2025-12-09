@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=21167000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>99b2a3001b91be5017814338b04bcb1a</copied_from>
+        <copied_from_name>Copy of Lego controller - stop v</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>copy_of_copy_of_lego_controller__turn_vehicle</internal_name>
+        <label_cache>[{"name":"subflow.clockwise","label":"Input➛Clockwise","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["clockwise"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"2b87d81f-b922-4dec-8555-2dc0f61c152a"}},{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"subflow.angle","label":"Input➛Angle","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["angle"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d90c5309-48f3-458f-ae1d-da104ff758b4"}},{"name":"subflow.wheel_a_speed","label":"Input➛Wheel A speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d9d38405-fc83-4223-ad07-f75f3b85f6c7"}},{"name":"subflow.wheel_b_speed","label":"Input➛Wheel B speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_secondary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"fe1b0ab1-faf3-45fd-ad10-3c6374b9f694"}},{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"1 - Lego Controller➛REST API response","type":"string","base_type":"string","usedInstances":{"60abf4c6-1550-4dca-a63e-ef4b22b0a7e7":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}}]</label_cache>
+        <master_snapshot>ab3367401b91be5017814338b04bcb8b</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Lego controller - turn vehicle</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:50:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39e26b001b91be5017814338b04bcbff</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Lego controller - turn vehicle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sys_hub_flow_39e26b001b91be5017814338b04bcbff</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:50</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-11-14 19:43:50">6ea33cdc1bd9be5017814338b04bcb00</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=39e26b001b91be5017814338b04bcbff"/>
+    <sys_variable_value action="delete_multiple" query="document_key=39e26b001b91be5017814338b04bcbff"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_39e26b001b91be5017814338b04bcbff^id=39e26b001b91be5017814338b04bcbff"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=39e26b001b91be5017814338b04bcbff"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=39e26b001b91be5017814338b04bcbff^sys_idNOT INbde26b001b91be5017814338b04bcbff"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>39e26b001b91be5017814338b04bcbff</id>
+        <name>Copy of Copy of Lego controller - turn vehicle</name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:50:59</sys_created_on>
+        <sys_id>bde26b001b91be5017814338b04bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 12:50:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bde26b001b91be5017814338b04bcbff"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=39e26b001b91be5017814338b04bcbff^sys_idNOT INa13327401b91be5017814338b04bcb79,a53327401b91be5017814338b04bcb76,b9ba2b001bd1be5017814338b04bcba5,e533ab001b91be5017814338b04bcbf9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fe1b0ab1-faf3-45fd-ad10-3c6374b9f694</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wheel_b_speed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Wheel B speed</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</model>
+        <model_id>39e26b001b91be5017814338b04bcbff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:20</sys_created_on>
+        <sys_id>a13327401b91be5017814338b04bcb79</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a13327401b91be5017814338b04bcb79"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d90c5309-48f3-458f-ae1d-da104ff758b4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>angle</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Angle</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</model>
+        <model_id>39e26b001b91be5017814338b04bcbff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:20</sys_created_on>
+        <sys_id>a53327401b91be5017814338b04bcb76</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a53327401b91be5017814338b04bcb76"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2b87d81f-b922-4dec-8555-2dc0f61c152a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>clockwise</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Clockwise</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</model>
+        <model_id>39e26b001b91be5017814338b04bcbff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 13:25:07</sys_created_on>
+        <sys_id>b9ba2b001bd1be5017814338b04bcba5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9ba2b001bd1be5017814338b04bcba5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d9d38405-fc83-4223-ad07-f75f3b85f6c7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wheel_a_speed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Wheel A speed</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</model>
+        <model_id>39e26b001b91be5017814338b04bcbff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:20</sys_created_on>
+        <sys_id>e533ab001b91be5017814338b04bcbf9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e533ab001b91be5017814338b04bcbf9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=39e26b001b91be5017814338b04bcbff^sys_idNOT IN0693f4dc1bd9be5017814338b04bcb7b"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=2884cc15-bd6e-433a-bf3f-4db8d8a33003</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</model>
+        <model_id>39e26b001b91be5017814338b04bcbff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_39e26b001b91be5017814338b04bcbff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:43:32</sys_created_on>
+        <sys_id>0693f4dc1bd9be5017814338b04bcb7b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0693f4dc1bd9be5017814338b04bcb7b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=39e26b001b91be5017814338b04bcbff"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=39e26b001b91be5017814338b04bcbff"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=39e26b001b91be5017814338b04bcbff^sys_idNOT INb5e2ab001b91be5017814338b04bcb0e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Lego Controller">b412eb8c1b51be5017814338b04bcbf3</action_type>
+        <action_type_parent display_value="Lego Controller">116cdf801b51be5017814338b04bcbb8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>b412eb8c1b51be5017814338b04bcbf3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:50:59</sys_created_on>
+        <sys_id>b5e2ab001b91be5017814338b04bcb0e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-15 17:07:07</sys_updated_on>
+        <ui_id>f66e9a16-d42c-49ab-8e1d-ca812bf99835</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YW2/iOBTHv8oozxj5ltjpW9Wq0khzkbazfRmNkC/HYG0ITC7tdKt+93UgQEopNKsyu6p45PjY538uP8Xm+0PkbXQWCUkoaGmIjomGGJNg4IxJjbk22iXRIMrVFILn1NtRCcUtFMF2q7K6MeKUMK0wJ5pYQVMsY02oM+32lAZX68t5pu5v2h3nN8PPHy+D3Ux8ZgvIo7PvPwbRXBUhTBUOP3vYWnqtzkxpyIJrOP7D9UroLvHV/byxFeAgBDHQmj61+//o2GeFbSSRQQS/KsgtBC1OZSUMoqnKrapmxX10VhV1MBSg7Nc8u197THxehfOixvdX6f8OQRkddOKeRWDMSI0h+HXso7Zk27m4S1Wp6xDMVHUBy5PNZOYNlMtKWXCqzqqLrm3p8HVe+Vm+3FIpnW3HNrOsnuZflsWK1ietmhYsdRl0wbypQZNVm6K7nszu1gW78vmiXO1iNjMq67iCKszkykPWNHTRmEGkqqrwuq4auQ9R7b89783SuKs7kME0qBlN1Xzu8/FoXsxu/UJBSGg6HGfhx9Bls7ugvPTjfKhMU4Zh6JsaXgX75cJ8owrf1ORzOGZR6Nr/mfufNXxshGpFpOEgUYpjhrgEjVQsDJKEaI2BU8NJ9DiIyvvyIlNluSliSGL0s25KsCxpW7zRshHNFlP4eXUeRN1CW6fHQQsmjvcOvNnM9jKpDpRhOvLn4LXWfti9QsUKu/OVjG1ZLW5laHQ+3mLtemVsQaNvBZrEGD9F7QXC3p6r34PTC+Csq/yUmnWdfwsyhuqUUcsRYAOIxzJBUogE6STGQtJYxElyDGQIodS9NKwYb2bT+gK2qXlOTH9aDgtY0XLZUbBDVB9m2H5mWssJmv85NBaISWJOkWSCI84kRiplAtkUM0q1SChVx4DG7p1ZtpnPyi++2G/Jy+HYK16+LYM/ldKHEn6i5D1QAppJSRhGwmEVPi2pQUobhVicKoqJiik2x6Ak3TuponPtycdZF5OHh7LWTdbDxcrj43Nudrn0BOmwvPU1rdW3JbcPSvEJpfeAkkkSgyWRiLjEIo7TBKXOcKSpiCEhPAGsj/Sw2TOrejOb5RzAhtz9VIW52oXU3QQgG6nRwnM/Ws9d+7+EDsheIXbdhPiw0f1COn2QS07IvQfknNaJYcYgrmS44xkmUZpojqwA5hTXQtD/4GHktme0BDMLs7UXOv166PS/h+6w8KfQdZW/mFIf8MQJvPcAXmwVlc4ZJJKYIs4FDY8rSlGSapBYOqoZPwJ4ksUqXE/D/Ka7/j7rXBtNqOVfd77cfXVcr+7H7albP9ReIXWF2kVH6w75ffCSJ7zeA15cGeoccyh83sKrTBGL0jg2yHKBmRGUcf6Wr7If/wAJQw6+vhoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b5e2ab001b91be5017814338b04bcb0e"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=39e26b001b91be5017814338b04bcbff"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=39e26b001b91be5017814338b04bcbff^sys_idNOT INa29370dc1bd9be5017814338b04bcb66"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e9a3b8dc1bd9be5017814338b04bcb97</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</flow>
+        <flow_variables_assigned/>
+        <generation_source>flowRecommendation</generation_source>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>output</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:43:33</sys_created_on>
+        <sys_id>a29370dc1bd9be5017814338b04bcb66</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:46</sys_updated_on>
+        <ui_id>60abf4c6-1550-4dca-a63e-ef4b22b0a7e7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/62PQQqDMBBF75K1FrRWjLsuu5duSpExie3QNAlJVES8exMq1AN0N/Pm8Zm/ED14M3jX6LNz+FCkvi1EwVuQejuRhIwghwiWpS9LQSErU17kLC0odGklMp4yqLK86ymtjqeDFc63YLANg9HKiXUNIRydkTBf/5HFnii5FfHbe0Ics2j8mXkcQ3IPMlgBo4rFvsoIFqGTYlu5YOhQqyayy87jc+iObI8mbV+91NOPrR/m4QSyNgEAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=39e26b001b91be5017814338b04bcbff"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=39e26b001b91be5017814338b04bcbff"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>wheel_b_speed</element>
+        <help/>
+        <hint/>
+        <label>Wheel B speed</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:20</sys_created_on>
+        <sys_id>253327401b91be5017814338b04bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 12:52:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>angle</element>
+        <help/>
+        <hint/>
+        <label>Angle</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:20</sys_created_on>
+        <sys_id>e53327401b91be5017814338b04bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 12:52:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>wheel_a_speed</element>
+        <help/>
+        <hint/>
+        <label>Wheel A speed</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:20</sys_created_on>
+        <sys_id>e93327401b91be5017814338b04bcb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 12:52:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>clockwise</element>
+        <help/>
+        <hint/>
+        <label>Clockwise</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 13:25:07</sys_created_on>
+        <sys_id>f1ba2b001bd1be5017814338b04bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_39e26b001b91be5017814338b04bcbff"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_39e26b001b91be5017814338b04bcbff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:43:32</sys_created_on>
+        <sys_id>ce9338dc1bd9be5017814338b04bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_39e26b001b91be5017814338b04bcbff"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=35000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>99b2a3001b91be5017814338b04bcb1a</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>copy_of_copy_of_lego_controller__turn_vehicle</internal_name>
+        <label_cache>[{"name":"subflow.clockwise","label":"Input➛Clockwise","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["clockwise"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"2b87d81f-b922-4dec-8555-2dc0f61c152a"}},{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"subflow.angle","label":"Input➛Angle","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["angle"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d90c5309-48f3-458f-ae1d-da104ff758b4"}},{"name":"subflow.wheel_a_speed","label":"Input➛Wheel A speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d9d38405-fc83-4223-ad07-f75f3b85f6c7"}},{"name":"subflow.wheel_b_speed","label":"Input➛Wheel B speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_secondary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"fe1b0ab1-faf3-45fd-ad10-3c6374b9f694"}},{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"1 - Lego Controller➛REST API response","type":"string","base_type":"string","usedInstances":{"60abf4c6-1550-4dca-a63e-ef4b22b0a7e7":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}}]</label_cache>
+        <master>true</master>
+        <name>Lego controller - turn vehicle</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab3367401b91be5017814338b04bcb8b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:48</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ab3367401b91be5017814338b04bcb8b^id=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ab3367401b91be5017814338b04bcb8b^sys_idNOT IN233367401b91be5017814338b04bcb8c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ab3367401b91be5017814338b04bcb8b</id>
+        <name>Copy of Copy of Lego controller - turn vehicle</name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:28</sys_created_on>
+        <sys_id>233367401b91be5017814338b04bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 12:52:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=233367401b91be5017814338b04bcb8c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ab3367401b91be5017814338b04bcb8b^sys_idNOT IN0ccaab001bd1be5017814338b04bcb11,373367401b91be5017814338b04bcbab,ef3367401b91be5017814338b04bcb8c,ff3367401b91be5017814338b04bcb97"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2b87d81f-b922-4dec-8555-2dc0f61c152a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>clockwise</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Clockwise</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - turn vehicle">ab3367401b91be5017814338b04bcb8b</model>
+        <model_id>ab3367401b91be5017814338b04bcb8b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 13:25:16</sys_created_on>
+        <sys_id>0ccaab001bd1be5017814338b04bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0ccaab001bd1be5017814338b04bcb11"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fe1b0ab1-faf3-45fd-ad10-3c6374b9f694</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wheel_b_speed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Wheel B speed</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - turn vehicle">ab3367401b91be5017814338b04bcb8b</model>
+        <model_id>ab3367401b91be5017814338b04bcb8b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:29</sys_created_on>
+        <sys_id>373367401b91be5017814338b04bcbab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=373367401b91be5017814338b04bcbab"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d90c5309-48f3-458f-ae1d-da104ff758b4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>angle</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Angle</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - turn vehicle">ab3367401b91be5017814338b04bcb8b</model>
+        <model_id>ab3367401b91be5017814338b04bcb8b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:28</sys_created_on>
+        <sys_id>ef3367401b91be5017814338b04bcb8c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ef3367401b91be5017814338b04bcb8c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d9d38405-fc83-4223-ad07-f75f3b85f6c7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wheel_a_speed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Wheel A speed</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Lego controller - turn vehicle">ab3367401b91be5017814338b04bcb8b</model>
+        <model_id>ab3367401b91be5017814338b04bcb8b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:29</sys_created_on>
+        <sys_id>ff3367401b91be5017814338b04bcb97</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ff3367401b91be5017814338b04bcb97"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ab3367401b91be5017814338b04bcb8b^sys_idNOT IN31a3f8dc1bd9be5017814338b04bcb19"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=2884cc15-bd6e-433a-bf3f-4db8d8a33003</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Lego controller - turn vehicle">ab3367401b91be5017814338b04bcb8b</model>
+        <model_id>ab3367401b91be5017814338b04bcb8b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_ab3367401b91be5017814338b04bcb8b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:43:47</sys_created_on>
+        <sys_id>31a3f8dc1bd9be5017814338b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=31a3f8dc1bd9be5017814338b04bcb19"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ab3367401b91be5017814338b04bcb8b^sys_idNOT IN3b3367401b91be5017814338b04bcbc4"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Lego Controller">b412eb8c1b51be5017814338b04bcbf3</action_type>
+        <action_type_parent display_value="Lego Controller">116cdf801b51be5017814338b04bcbb8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>b412eb8c1b51be5017814338b04bcbf3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lego controller - turn vehicle">ab3367401b91be5017814338b04bcb8b</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:29</sys_created_on>
+        <sys_id>3b3367401b91be5017814338b04bcbc4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:17</sys_updated_on>
+        <ui_id>f66e9a16-d42c-49ab-8e1d-ca812bf99835</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YW2/iOBTHv8oozxj5ltjpW9Wq0khzkbazfRmNkC/HYG0ITC7tdKt+93UgQEopNKsyu6p45PjY538uP8Xm+0PkbXQWCUkoaGmIjomGGJNg4IxJjbk22iXRIMrVFILn1NtRCcUtFMF2q7K6MeKUMK0wJ5pYQVMsY02oM+32lAZX68t5pu5v2h3nN8PPHy+D3Ux8ZgvIo7PvPwbRXBUhTBUOP3vYWnqtzkxpyIJrOP7D9UroLvHV/byxFeAgBDHQmj61+//o2GeFbSSRQQS/KsgtBC1OZSUMoqnKrapmxX10VhV1MBSg7Nc8u197THxehfOixvdX6f8OQRkddOKeRWDMSI0h+HXso7Zk27m4S1Wp6xDMVHUBy5PNZOYNlMtKWXCqzqqLrm3p8HVe+Vm+3FIpnW3HNrOsnuZflsWK1ietmhYsdRl0wbypQZNVm6K7nszu1gW78vmiXO1iNjMq67iCKszkykPWNHTRmEGkqqrwuq4auQ9R7b89783SuKs7kME0qBlN1Xzu8/FoXsxu/UJBSGg6HGfhx9Bls7ugvPTjfKhMU4Zh6JsaXgX75cJ8owrf1ORzOGZR6Nr/mfufNXxshGpFpOEgUYpjhrgEjVQsDJKEaI2BU8NJ9DiIyvvyIlNluSliSGL0s25KsCxpW7zRshHNFlP4eXUeRN1CW6fHQQsmjvcOvNnM9jKpDpRhOvLn4LXWfti9QsUKu/OVjG1ZLW5laHQ+3mLtemVsQaNvBZrEGD9F7QXC3p6r34PTC+Csq/yUmnWdfwsyhuqUUcsRYAOIxzJBUogE6STGQtJYxElyDGQIodS9NKwYb2bT+gK2qXlOTH9aDgtY0XLZUbBDVB9m2H5mWssJmv85NBaISWJOkWSCI84kRiplAtkUM0q1SChVx4DG7p1ZtpnPyi++2G/Jy+HYK16+LYM/ldKHEn6i5D1QAppJSRhGwmEVPi2pQUobhVicKoqJiik2x6Ak3TuponPtycdZF5OHh7LWTdbDxcrj43Nudrn0BOmwvPU1rdW3JbcPSvEJpfeAkkkSgyWRiLjEIo7TBKXOcKSpiCEhPAGsj/Sw2TOrejOb5RzAhtz9VIW52oXU3QQgG6nRwnM/Ws9d+7+EDsheIXbdhPiw0f1COn2QS07IvQfknNaJYcYgrmS44xkmUZpojqwA5hTXQtD/4GHktme0BDMLs7UXOv166PS/h+6w8KfQdZW/mFIf8MQJvPcAXmwVlc4ZJJKYIs4FDY8rSlGSapBYOqoZPwJ4ksUqXE/D/Ka7/j7rXBtNqOVfd77cfXVcr+7H7albP9ReIXWF2kVH6w75ffCSJ7zeA15cGeoccyh83sKrTBGL0jg2yHKBmRGUcf6Wr7If/wAJQw6+vhoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3b3367401b91be5017814338b04bcbc4"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ab3367401b91be5017814338b04bcb8b^sys_idNOT IN31a3f8dc1bd9be5017814338b04bcb49"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e9a3b8dc1bd9be5017814338b04bcb97</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lego controller - turn vehicle">ab3367401b91be5017814338b04bcb8b</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>output</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:43:47</sys_created_on>
+        <sys_id>31a3f8dc1bd9be5017814338b04bcb49</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:48</sys_updated_on>
+        <ui_id>60abf4c6-1550-4dca-a63e-ef4b22b0a7e7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/61Ty27bMBD8F54tQYpkR/YtSBAgRRoDjZtLUQhLchWzoUiFpJy4hv+9S0u20/Tam3a4j5nZ1Y7ZPnR98Ct75b16NmzxY8cMtMgW4xObsA3oPgK7XTOb4RzyWSLLC5GUc+BJhblMBFT5BW/m86qYpg59qKFTNX101njc76mJVL7TsH36H73EWmnpMLL9OWEdOCIc0LHFjilDHwb0vTIvNOafZCUJzWbzoimlyLmcc5xm+WWVl0VR8azkgl9yqtLAUVPq8mjCZ1PCtovxL2/NGN2PJV8elw8EWScjpXzC8D2gkUiTG9AeJ6wFIyFYtz0hDkEujT4DaxIy8G/h3avfNKvMsixmNkhqBA6vp7AeDR7g5gYCPAbXi9A7PBphlUA/+CCxgV6H64/YkLDsgiJNh5IAXB+rre5b8zC4wE4NjvskpPdEArsoNXIfhTSPa/v27cjyVpmDK+OjtgL0KYIQnOJ9iHx2rFervywe4k8mo8aWptUtdJ0yz3Xn7EYdJhDhNn3WFKSNtm/ELN53CiKqS8l+SG8JvznAT+BUlPqV2lBxHPbdqNce7+K5XFRVKUQ+TbicYUKHAglviiYpJa9kBUWRZQXbT5jf+msN3p9Nou3Ur32UOFg2mlMP/sYS4VQXrojUBkcf9vFKTfwph61sRm6nxQnlScIqYncf8uSWTlSJj9CbdS9R/Bnb/wHOYDfc8gMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ab3367401b91be5017814338b04bcb8b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>wheel_a_speed</element>
+        <help/>
+        <hint/>
+        <label>Wheel A speed</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:29</sys_created_on>
+        <sys_id>3b3367401b91be5017814338b04bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 12:52:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>clockwise</element>
+        <help/>
+        <hint/>
+        <label>Clockwise</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 13:25:16</sys_created_on>
+        <sys_id>4ccaab001bd1be5017814338b04bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 13:25:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>angle</element>
+        <help/>
+        <hint/>
+        <label>Angle</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:28</sys_created_on>
+        <sys_id>bb3367401b91be5017814338b04bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 12:52:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>wheel_b_speed</element>
+        <help/>
+        <hint/>
+        <label>Wheel B speed</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:29</sys_created_on>
+        <sys_id>ff3367401b91be5017814338b04bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 12:52:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ab3367401b91be5017814338b04bcb8b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ab3367401b91be5017814338b04bcb8b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 18:43:47</sys_created_on>
+        <sys_id>fda3f8dc1bd9be5017814338b04bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ab3367401b91be5017814338b04bcb8b"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>39e26b001b91be5017814338b04bcbff</sys_id>
+        <latest_snapshot>ab3367401b91be5017814338b04bcb8b</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch1-hotfix1a-09-24-2025_10-14-2025_2100.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=39e26b001b91be5017814338b04bcbff"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=39e26b001b91be5017814338b04bcbff^sys_idNOT INf73367401b91be5017814338b04bcbdd"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"f73367401b91be5017814338b04bcbdd","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Lego controller - turn vehicle">39e26b001b91be5017814338b04bcbff</plan_id>
+        <snapshot>3f17e1ac1b51721085b12fc8b04bcb2e</snapshot>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-11-14 12:52:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f73367401b91be5017814338b04bcbdd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-11-14 18:43:48</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
