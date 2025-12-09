@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>This property defines the operation mode of subflows. If the value is true, the REST API is not called.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_tsigh_legomgmt.dev_mode</name>
+        <read_roles/>
+        <suffix>dev_mode</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-12-09 16:53:48</sys_created_on>
+        <sys_id>c7e9055c93f53a1062aff2f46003d604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_tsigh_legomgmt.dev_mode</sys_name>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sys_properties_c7e9055c93f53a1062aff2f46003d604</sys_update_name>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-12-09 16:53:48</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7e9055c93f53a1062aff2f46003d604"/>
+</record_update>

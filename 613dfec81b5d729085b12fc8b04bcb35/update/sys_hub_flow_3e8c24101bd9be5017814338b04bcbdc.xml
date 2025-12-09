@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>lego_controller__is_moving</internal_name>
-        <label_cache>[{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"1 - Lego Controller➛REST API response","reference_display":"REST API response","type":"string","base_type":"string","usedInstances":{"17bb130a-80c1-4294-8fee-4a3e9da48c2c":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.developer_mode","label":"Flow Variables➛Developer mode","reference":"","reference_display":"","type":"boolean","base_type":"boolean","parent_table_name":null,"column_name":"","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"fe57fe31-8468-4a0a-8e0e-ea988389353f":["condition"]},"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":"","uiUniqueId":"8da39fcd-6084-43d5-add6-497cd20a0a40"}},{"name":"subflow.direction","label":"Input➛Direction","reference":null,"reference_display":null,"type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"subflow.time","label":"Input➛Time","reference":null,"reference_display":null,"type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"5➛REST API response","reference":null,"reference_display":"REST API response","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}},{"name":"subflow.speed","label":"Input➛Speed","reference":null,"reference_display":null,"type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}}]</label_cache>
         <master_snapshot>179ce4101bd9be5017814338b04bcbd3</master_snapshot>
         <master_snapshot_digest/>
         <name>Lego controller - is moving</name>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>attila.varga</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3e8c24101bd9be5017814338b04bcbdc</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Lego controller - is moving</sys_name>
         <sys_overrides/>
         <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_update_name>sys_hub_flow_3e8c24101bd9be5017814338b04bcbdc</sys_update_name>
         <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-11-14 18:45:18</sys_updated_on>
+        <sys_updated_on>2025-12-09 17:03:22</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2025-11-14 19:45:18">440438101b1dbe5017814338b04bcb89</version_record>
+        <version_record display_value="Created 2025-12-09 18:01:11">2aeb0d5093393a1062aff2f46003d650</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3e8c24101bd9be5017814338b04bcbdc"/>
     <sys_variable_value action="delete_multiple" query="document_key=3e8c24101bd9be5017814338b04bcbdc"/>
@@ -166,23 +166,104 @@
         <display_text/>
         <flow display_value="Lego controller - is moving">3e8c24101bd9be5017814338b04bcbdc</flow>
         <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
+        <order>5</order>
+        <parent_ui_id>f74c9eef-4ed7-4441-be5e-2258b960be1d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-14 18:12:44</sys_created_on>
         <sys_id>078c24101bd9be5017814338b04bcbec</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-11-14 18:45:51</sys_updated_on>
+        <sys_updated_on>2025-12-09 17:02:10</sys_updated_on>
         <ui_id>f66e9a16-d42c-49ab-8e1d-ca812bf99835</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2YXW8aORSG/0o11xj5a8Ye7qJEkSo1rbR0c1NVyB/HxNphoPORlI3639cDA0wIkCCRdhVxyZljn9evzyPbfHuMvI0GkZCEgpaG6JhoiDEJAc6Y1Jhro10S9aJcTSBkTrwdlVDcQxFi9yqrmyBOCdMKc6KJFTTFMtaEOtMOT2lItb6cZWp+2464uO3ffLwKcXPnM1tAHg2+fe9FM1WEMlWYfPC49em1OjOlIQupYfoPw5XQXeKr+ayJFeAgFDHQhj614//qxKeFbSSRXgQ/K8gtBC1OZSX0oonKraqmxTwaVEUdAgUo+yXP5uuMO59XYb6oyf1Z+n9DUUZ7nbqDCIwZqTGEvE581Fq2vRZ3pSo1DMVMVRewnNncTb2BcumUBafqrLrsxpYJX2aVn+bLIZXS2XZtM83qSf55aVa0nmm1aSFSl0EXzBoPmlW1S3TDu+nD2rBrny/saj9mU6OyTiqowtxde8iaDV1sTC9SVVV4XVeN3Meo9l+f780yuGt3IINJUDOaqNnM5+PRrJje+4WCsKBJf5yFH32XTR+C8tKP874yjQ39sG+qfx3iV4vwrSp848lNmGZhdO3/zv2PGj42QrUi0nCQKMUxQ1yCRioWBklCtMbAqeEk+tWLynl5mamy3JgYFjH6UTcWLC1tzRstN6IZYgo/qy6CqHtoffrVa8HE8cGGN5veXi6qA6Uvb4IP+fg5fJ0vx+H3CjUr/C5WcrbltdiVYcMXCrrMDVfBFjh6KuAkxvgpcntIOz1fvwerPQCtXX5Kz9rn34KOoTpl1HIE2ADisUyQFCJBOomxkDQWcZK8BTqEUOr2NSvGm960voBtep5TczwtLwtY0XLVUbBD1DHMsMPMtJEzNP9zaCwQk8ScIskER5xJjFTKBLIpZpRqkVCq3gIae7Bn2aY/K784uU/Jy8u1V7x8XRZ/KuUYSviZkvdACWgmJWEYCYdVOFpSg5Q2CrE4VRQTFVNs3oKS9GCnis61Jx9np8bk5eLrS1hbfUvMMaDEZ1DeAygmSQyWRCLiEos4ThOUOsORpiKGhPAEsH6j58uBXtWb3ixnADas3U9U6KvTAvOyiBUww0bFh42KPeKOASg5A/QeAHJaJ4YZg7iS4T5mmERpojmyAphTXAtB/8Ajxm33aAlmGnrr5Ai9LOMpQl0dewUeg5E4Y/QeMIqtotI5g0QSU8S5oOFZQylKUg0SS0c142+AkWSxChfD0L/prj+uOhc2E7z858GXJ760vULACqDLjoIdoo6BRp6heQ/QcGWoc8yhcASFV44iFqVxbJDlAjMjKOP8lK+c7/8Bc4pOPxYaAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=078c24101bd9be5017814338b04bcbec"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3e8c24101bd9be5017814338b04bcbdc"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3e8c24101bd9be5017814338b04bcbdc^sys_idNOT INeb32341c1bd9be5017814338b04bcb99"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3e8c24101bd9be5017814338b04bcbdc^sys_idNOT IN63fb095093393a1062aff2f46003d6f8,bf0c819093393a1062aff2f46003d65e,c02ccd5093393a1062aff2f46003d6a9,eb32341c1bd9be5017814338b04bcb99,f0db095093393a1062aff2f46003d6f1"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2ffb095093393a1062aff2f46003d6f7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lego controller - is moving">3e8c24101bd9be5017814338b04bcbdc</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-12-09 17:01:31</sys_created_on>
+        <sys_id>63fb095093393a1062aff2f46003d6f8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-12-09 17:02:10</sys_updated_on>
+        <ui_id>fe57fe31-8468-4a0a-8e0e-ea988389353f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VQW7bMBD8isGzIEhWbDS+BQ4CFGgboAlyaQNhRa5iopSokpQdV/Dfu5Ro2Ugd1Gl77M0c7q5mVjNWx3TrmtbZe31lrXyq2eLLY8Rk7TH63TEp2IJdwqycpcmMZ9N5Nk2S6buLtJhnRToVGeDFnEWshgqpkutaSCd1TdAaVOuxriuV3uRrMBIKhbHANSrdoMkrLXC3+9omSSacoeKICWkbBduHP+nlK6mEwSCiAUOcHBq26F5cnStKQYGKSpdHqk4IddvGQ9YZWT+F84fQercHtRGeyjSJGD47rAUSiRKUxYhVUAtw2mzZwkuJmEEQt7XajhUrWTuaxnzts5U/0E9KEl9ZIuniONyOxzwscoDLa3BAVFruWhNK+UpLjnbYiMASWuWWx9hQcNv0KvsW599B6NaqrepPwzLYOGD/3ghpLZHAxiv13IOQ8m6lN5/3LG9k3W8lXCrNQY0ncLS7onWeT8dQYUWD8gqahjaaN0avZd9MXKr4SdEh7s0i0Ds5Bu6Jx7RYiG8Iv+7hh+CkjzSGmskLNrfcyGavrX8420XMbu1SgbUHjbTc/HvrGQ6Kg7Z8WI9v6Qdd0YPXGGTsopChMoEyveTpabtBdsJaeQ8cgjSaf+LNP5F20tvvRWReqXpbOM5g+0s4JoPnX9fxlpykv8lJQM4Kymz2Pyd/nRNPswAred5/HWhc/6/774Ly6I0+PHRcNpeWuN177P3+m+QvtuQoyY+hjTbfvKoDtvsJSh4Yld0GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7b0c819093393a1062aff2f46003d65e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lego controller - is moving">3e8c24101bd9be5017814338b04bcbdc</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>output</outputs_assigned>
+        <parent_ui_id>fe57fe31-8468-4a0a-8e0e-ea988389353f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-12-09 17:01:49</sys_created_on>
+        <sys_id>bf0c819093393a1062aff2f46003d65e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-12-09 17:03:12</sys_updated_on>
+        <ui_id>ddc177a0-6fee-4697-936a-79617bf1fbff</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/41Ty27bMBD8lYJn25Asp1F8CxIESJHGQJ3mUhfGilzZbCiS4cOOa/jfs7TkR9NLbtrhPmZmV1tmYrAx+Cdz7b1caDb+tWVSsDHLh8WwznKeV+KqwossvyzzUVGUVTaqeCWGrMc0NEiZbQuKV6BiArYz5tBHFWZs/GXGfDDWopixHeUI6a2CzfMnUvlSKuEwcfrdYxYcjQvo2JgYavrQoB6kfqEu/yV/VoGCChWlTg4SPkoKG5viP97oLnroSr5NJ48EGScSpbzH8C2gFkiTa1Aee6wBLSAYtzkiDkFMtDoBSxLS8m/gzcu/NGuUZVnKrJHUcGxfj+G886+F61sIMA0u8hAdHowwkqNvfRBYA5l7c461CRMbJGnalwSo1KHaqNjox9YFdmxwWBch0RMJtElq4t4JqadLs/5xYHkn9d6V7lEZDuoYQQhOVjEkPlsW5dM/FrfxB5NRYUPT5g1YK/Vibp1Zyf0EItwMFoqCQa3MmpilKx4AT+oGZD8M7gi/3cPP4GSS+p3aUHEa9lPL14j36VwusgL41eXXflkD9keFyPtQZtAXVVHyUSlgWA3Zrsf8xt8o8P5kEm1n/hqTxNayzpx5628q4U7acE2kVtj5sEtXqtOv125l1XE7Lo5LTxKeEnZ/lic2dKKSn0Nr416S+BO2ewdSEfhX2AMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8c2ccd5093393a1062aff2f46003d6a8</block>
+        <comment/>
+        <connected_to>fe57fe31-8468-4a0a-8e0e-ea988389353f</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lego controller - is moving">3e8c24101bd9be5017814338b04bcbdc</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-12-09 17:02:07</sys_created_on>
+        <sys_id>c02ccd5093393a1062aff2f46003d6a9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-12-09 17:02:15</sys_updated_on>
+        <ui_id>f74c9eef-4ed7-4441-be5e-2258b960be1d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">f552381c1bd9be5017814338b04bcb3a</block>
@@ -194,24 +275,134 @@
         <flow_variables_assigned/>
         <generation_source>flowRecommendation</generation_source>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>6</order>
         <outputs_assigned>output</outputs_assigned>
-        <parent_ui_id/>
+        <parent_ui_id>f74c9eef-4ed7-4441-be5e-2258b960be1d</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-14 18:37:37</sys_created_on>
         <sys_id>eb32341c1bd9be5017814338b04bcb99</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-11-14 18:45:15</sys_updated_on>
+        <sys_updated_on>2025-12-09 17:02:15</sys_updated_on>
         <ui_id>17bb130a-80c1-4294-8fee-4a3e9da48c2c</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/61Ty27bMBD8F54tQS87km8BigAp2hho3FyKQliRK5stRSokZcc1/O9dWrLzOPXQm2a4j9nZ1ZGZwfeDd2tz65zcaLb8cWRSsCVLszxrk5SnjaganCfpTZkWeV42SdHwRmRsxjR0SJFjCcI7UEMgjsd2scAK0kUkioxHRQVNVGIqIg5lmjVtVZX5PLbofA29rOmjN9rh6URFhHS9gsPT/6jFt1IJi2GqnzPWgyXBHi1bHj88+UOPtYIGFbX8/Lh6oOR/deGStrrY8NGWUJzwL2c0IWNFUJDOGL541AKpTQvK4Yx1oAV4Yw9XxiKIlVavxFZqT7VYCH5x8g8VLpIkCZEt0jgcx9crrCc/R5pvjeS46r0kLWfGQ6OmHG7U0OmHUX3YBLYwKH/ZBDGDo3rYB9VBxqSpfdya/bdLwzupzwNOj8pwUFcE3lvZDB5d2MEg1++sGfGX92tAhR11qzvoe6k3dW/NTp47kOAu3igCcavMnpSFC46Bh+lichLiO+I/neknsDKM+pXKUHJo9l3L5wHvw5rnSQ68ullEZQsYFblIIygTiESTl7woBWRNxk5nW+vnIQw0GjRZUY9uUoDjVvb+liTscJr6RPcldfjJxlvbTUomKJBLR4LXgbt/EycOdEiSv6X2xv4Oo75yp78yeCAuwgMAAA==</values>
+        <values>H4sIAAAAAAAA/61Ty27bMBD8F54tQy87cm5BggAp0hio3VyKQFiRK5sNRSokZcc1/O9dWrLjppceeuMO9zEzS+6Z6Xzbebc0N87JlWbXP/ZMCnbNkjRL6zjhSSVmFU7i5KpI8iwrqjiveCVSNmIaGqTMvgXFG1BdAPb7ejrFGSTTSOQpj/IZVFGBiYg4FEla1bNZkU3GFp0voZUlHVqjHR4O1ERI1yrYPf+PXnwtlbAYVL2MWAuWCHu07Jo0ajpoUI9Sv9KYv5L/1QMFFSpKnZ9M+GyK37Uh/umMHqLHoeTLYv5EkLEiUEpGDN89aoE0uQblcMQa0AK8sbszYhHEXKsPYE1Cev4NvDv5i2blcRyHzBpJDcf+9hyWg8E9XN+Bh4W3HfedxZMRRnJ0vQ8Ca+iUv73E+oR56yVpOpZ4qNSp2qiu0U+9C+zc4LRPQjpHJLANUgP3QUi9WJvttxPLe6mPrgyXynBQ5wi8t7LqfOCzZ51c/mFxH38yGRU2NK1soG2lXpWtNRt5nECEm/FKUTCuldkSs/APxsCDujHZD+N7wu+O8DNYGaR+pTZUHIZ91/Ktw4fwXCZxBnx2NY2KGjDKM5FEUMQQiSoreF4ISKuUHUbM7dytAuc+TKLtlG9dkNhbNphT9v6GEm5l62+I1AYHHw7hlerwefutbAZu58Vx6UjCMmAPF3liR09U8ktoa+xrEP+BHX4DEySFvhoEAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bcdb095093393a1062aff2f46003d6f0</block>
+        <comment>As a first step, need to get the value of a system property, which defines the operation mode of subflow</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lego controller - is moving">3e8c24101bd9be5017814338b04bcbdc</flow>
+        <flow_variables_assigned>developer_mode</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-12-09 17:00:47</sys_created_on>
+        <sys_id>f0db095093393a1062aff2f46003d6f1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-12-09 17:02:10</sys_updated_on>
+        <ui_id>054417fd-f718-483c-ab98-83792a564dd6</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2UzWobMRDHX2XQqXWN7JCbezK0JT01kJBLNyyyNLtWqpWW0ciJMX73jrbrNpTSJ8hJw0+j/3yik0qFx8L5Pm1z9n1Um++PS+VjZWKflHdqo9RSRTOgWA4PGNKI1A7JofCDCaVerMV2Po/BHB9eIbv3wRHOutmSH3lr2R/EganghanN6W9tIf/zV6tFExeLrbWYM3wJ6XlVHVMEZ9hAyT72wHuEzrUTSbsntKzhbhKAoWQGQi4UwcBUhoaq+I0cEsQy7OTwGVLXZWTYHeHDFfgIn4kSwY2JLtQQdzhF1VMyB+OD2QWENFaYYW4JlFESG0lSrW8apRsFpmOJMKdXn+OLGcaAG8mGIO8T8SfMFpqyXl+7i6Nm8n2PpG0haSzrybF1+KsxEvVj1Zor+61S4aqJM+6z7pFvqXabj+8a9dKyjH/fBuzT0A+sZRjTGBq1hNr49yKgzufzYx05+Vrk24K8Lcg/F8Sh9Vni3NdKv17+knpxlC3x9jV6TvSjk9n8YeefgRktaJUEAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=3e8c24101bd9be5017814338b04bcbdc"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=3e8c24101bd9be5017814338b04bcbdc"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3e8c24101bd9be5017814338b04bcbdc^sys_idNOT INf2cb455093393a1062aff2f46003d67b"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=8da39fcd-6084-43d5-add6-497cd20a0a40</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>developer_mode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Developer mode</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Lego controller - is moving">3e8c24101bd9be5017814338b04bcbdc</model>
+        <model_id>3e8c24101bd9be5017814338b04bcbdc</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3e8c24101bd9be5017814338b04bcbdc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>attila.varga</sys_created_by>
+        <sys_created_on>2025-12-09 17:00:39</sys_created_on>
+        <sys_id>f2cb455093393a1062aff2f46003d67b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>attila.varga</sys_updated_by>
+        <sys_updated_on>2025-12-09 17:14:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3e8c24101bd9be5017814338b04bcbdc"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>output</element>
