@@ -3,31 +3,34 @@
         <active>true</active>
         <agent display_value="Lego sleigh controller agent for checking movement">e8ece0501bd9be5017814338b04bcb6e</agent>
         <description>The result of this Subflow shows that the sleigh is moving or not.</description>
-        <display_output>true</display_output>
+        <display_output>false</display_output>
         <document_status/>
         <execution_mode>autopilot</execution_mode>
         <inputs>[]</inputs>
         <max_auto_executions>10</max_auto_executions>
         <name>Check that the vehicle is moving or not</name>
-        <output_transformation_strategy>abstract_summary</output_transformation_strategy>
+        <output_transformation_strategy>custom</output_transformation_strategy>
+        <post_message/>
         <post_processing_script/>
         <pre_message/>
+        <pre_run>false</pre_run>
         <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-14 18:27:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>ed0038d41bd9be5017814338b04bcb81</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Check that the vehicle is moving or not</sys_name>
         <sys_overrides/>
         <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_update_name>sn_aia_agent_tool_m2m_ed0038d41bd9be5017814338b04bcb81</sys_update_name>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-11-14 18:27:56</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 11:09:20</sys_updated_on>
+        <timeout/>
         <tool display_value="Lego controller - is moving">e10038d41bd9be5017814338b04bcb7f</tool>
         <tool_attributes>{}</tool_attributes>
-        <transformation_instructions/>
+        <transformation_instructions>Provide the output in a funny Christmas-themed style. </transformation_instructions>
     </sn_aia_agent_tool_m2m>
 </record_update>

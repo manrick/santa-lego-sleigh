@@ -3,31 +3,34 @@
         <active>true</active>
         <agent display_value="Lego sleigh controller agent for turning action">b2712dec1b11721085b12fc8b04bcbf8</agent>
         <description>This tool is responsible for turning the Santa's sleigh</description>
-        <display_output>true</display_output>
+        <display_output>false</display_output>
         <document_status/>
         <execution_mode>autopilot</execution_mode>
         <inputs>[]</inputs>
         <max_auto_executions>10</max_auto_executions>
         <name>Tool for turning the sleigh</name>
-        <output_transformation_strategy>abstract_summary</output_transformation_strategy>
+        <output_transformation_strategy>custom</output_transformation_strategy>
+        <post_message/>
         <post_processing_script/>
         <pre_message/>
+        <pre_run>false</pre_run>
         <sys_class_name>sn_aia_agent_tool_m2m</sys_class_name>
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-15 16:52:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>76d369641b51721085b12fc8b04bcbdd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Tool for turning the sleigh</sys_name>
         <sys_overrides/>
         <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_update_name>sn_aia_agent_tool_m2m_76d369641b51721085b12fc8b04bcbdd</sys_update_name>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-11-15 16:52:52</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 11:09:39</sys_updated_on>
+        <timeout/>
         <tool display_value="Lego controller - turn vehicle">7ed369641b51721085b12fc8b04bcbd9</tool>
         <tool_attributes>{}</tool_attributes>
-        <transformation_instructions/>
+        <transformation_instructions>Provide the output in a funny Christmas-themed style. </transformation_instructions>
     </sn_aia_agent_tool_m2m>
 </record_update>

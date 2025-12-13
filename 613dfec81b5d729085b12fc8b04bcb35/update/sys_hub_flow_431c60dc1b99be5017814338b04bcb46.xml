@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2156498000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2476836000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>lego_controller__start_vehicle_without_timer</internal_name>
-        <label_cache>[{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"5 - Lego Controller➛REST API response","reference_display":"REST API response","type":"string","base_type":"string","usedInstances":{"bbd6ed24-adac-4686-8b95-69bbc5ad5ce2":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"flow_variable.developer_mode","label":"Flow Variables➛Developer mode","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"e304fdde-94d2-41b0-ad20-272f58860f58":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e227343e-0f78-43f4-8fd3-6e231809307e"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.developer_mode","label":"Flow Variables➛Developer mode","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"e304fdde-94d2-41b0-ad20-272f58860f58":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e227343e-0f78-43f4-8fd3-6e231809307e"}},{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"5 - Lego Controller➛REST API response","reference_display":"REST API response","type":"string","base_type":"string","usedInstances":{"bbd6ed24-adac-4686-8b95-69bbc5ad5ce2":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}}]</label_cache>
         <master_snapshot>cd6ce8dc1b99be5017814338b04bcb17</master_snapshot>
         <master_snapshot_digest/>
         <name>Lego controller - start vehicle without timer</name>
@@ -36,19 +36,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>431c60dc1b99be5017814338b04bcb46</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Lego controller - start vehicle without timer</sys_name>
         <sys_overrides/>
         <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_update_name>sys_hub_flow_431c60dc1b99be5017814338b04bcb46</sys_update_name>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:34</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:29</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2025-12-09 18:12:34">198ecdd493393a1062aff2f46003d660</version_record>
+        <version_record display_value="Created 2025-12-13 02:11:30">9c849021c331f2101fa21613e40131ec</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=431c60dc1b99be5017814338b04bcb46"/>
     <sys_variable_value action="delete_multiple" query="document_key=431c60dc1b99be5017814338b04bcb46"/>
@@ -340,20 +340,20 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-14 18:10:51</sys_created_on>
         <sys_id>db1c60dc1b99be5017814338b04bcb62</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:28</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:13:49</sys_updated_on>
         <ui_id>f66e9a16-d42c-49ab-8e1d-ca812bf99835</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Y227bOBD9lULPpsGbRMpvQYMCBbZbYNPNS1EYJDVyiMqSq0vSbJB/35EtX2PZQZOmfvCjRzPDc4bnyGN/fQh8EowCpRkHqx2zIbMQUoYBKYS2VFpn0ygYBLmZAmZOfTKuoLyFEmO3JmvaII2ZsIZKZlmieEx1aBlPXVcec0xNfDXLzP11V3FxPfz08RLj7sZnSQl5MPr6bRDMTInH1Nh89LDzqL6fwTgzFjIs/wdSwCcOsMNzCSxr8dx3V0sG+1i1J2Gs3DijKJMWExsE8LOGPAE8MzVZBYNgavLE1EV5H4zqssFACSb5nGf3q4wbn9fYL2hzf1b+P2wu+GCj/ygA58ZmApi3ER93M9vF7G4K7+DzrPZFvuhbG5vttnFF1kzzvxf82guA1DRZvbwAjDQVHgGzlk4LsEObXt0Ud6v5fvD5nHn3MCucyVafTF2X3jY1VO11Nf7L08Etgn/tuTbIYIrnjqdmNvP5ZDwri1s/PwuhT4eTDD8M06y4Q4yVn+RD41rCQxy2GX7A+OU8fG1K37L/hG3m02n8v7n/0cDHVhbWMO0kaBLTUBCpwRITKkc0Y9ZSkNxJFjzOZz7+0bTUFqPqhjJeDBgTKlf6WX2BEG6h4/846MxDw4Pac2uZLShsGGdSPLXGPPZrtrjC+8gnS088A9ey8GIJbBdo54Vq2bgzAn8tI2hK6bYVehxwUPd/VO6r2WxrfXUXbyJ0x20seCIJUAdEhjoiWqmI2CikSvNQhVH0cqEzxnnaJyhK1/pJfAm7Wn94qBrb8hyunj4+PpV/X9qrOOI4gWXh5QaDPaR6fCEO+6KLnI3xdsZIgLkolJxooSSRQlNiYqFIElPBuVUR5+blxkgO6kqsNVT7KWx44qn8X0vpxxEtC78sIG0D7NG3POv7xPQNVmjNBCUqpQZf/LEjxjpDRBgbTpkJOXUv13d8UE1qY3HIJ9nbCPw4pNVy02Hagdgj8fAs8ROTuIsiRzXThKVRQiSNIxKnThLLVQgRkxFQ+ypL/AE92bV+qhlAgkz91KAg9u0384zDu8065bU2/SPgV4Xtwe/W6HtI9ZgjOpvjxMyRWhs54RyRRuN+4wT+1o2sJIkCkRppleK/ffFPd3VUgStQFFv2+H3fBMfBbYt/E10v7B4DqLMBTswAYWK4TlNHVBRyIqXiuOBzTqLYgqY65VbIFxtAi9DgWoUai/f9lbKxADmc3Pc7X73JEvQMWMvC9xu49kDtkbs+y/3E5C6N42kqUoKvfdz3DUtIHIaOJFJR4RQXUv76vv/tf2M48q4QGAAA</values>
+        <values>H4sIAAAAAAAA/+2Y227bOBCGX6XQtWlQPCt3QYIABbZbYNPtTVEYPIwcYmXJ1SFpNsi7L2XJtuLYTgw47SLwpUcjzs9/5oNIf3uIvIvOIqliAkbZ2PDYAMdxCDBKlcHMWJOKaBTlegYhc+bdpILyFsoQu9VZ0waBamBY8IQabkiMY+OcYVoLbXSMJQ2pzlfzTN9/7d/49PFyfP41xO2Nz1wJeXT27fsomusylKnD4mcPG49eqzPTBrKuwofrpdBt4uv7eRsrIYVQxEIf+qN//69BvChdKykeRfCzhtxB0JLqrIJRNNO503VR3kdnddmEQAnafc6z+1XGjc/rsF7U5v6s/L+hKCWjQd3gn7UTPYWQN4hPess295Je6lpfh2K2bkroVrY3hbdQdU45SHWT1RfDWJfweV77Iu9eqbXJNmvbImtm+Z+dWdFqpWXTQqSpgi6Ytx60u+q3mF7fFHcrw658vrCrf5gVVmeDVNClvbnykLUNXTRmFOm6Lr1p6lbuQ9T4L8970wW3dQcymAU1k5mez30+nczL4tYvFIQNzcbTLPwYp1lxF5RXfpqPtW1tGIe+6fFViF8uwl916VtPPoVlFkY3/u/c/2jgYys0DLKyDBRKMKeIKTBIc2mRimNjMDBiWRw9jqLqvrrIdFWtTQybmPxoWgs6S3vzJl0j2lds6ef1eRB1C71Pj6MeTMz3Drxdz3a3qQGU0+I5dovYYci9QsESufOlhE1JPWpVaHI+3eDsehnsISPHgkxhjJ9itoOu4zP1a1DaAc3K5afErHz+JbhYYhJKHEOALSDGlUBKSoGM4FgqwiUX4i1wiWNC0l3DivF6Np0vYZOYh4eqMe3Ox6unj4/PIdqVdiBXL0tdcnU50LpF/iF00f109ZETXv9zvBzEVnBGkKKSIUYVRjqhErkEU0KMFITot8DL7Z1Zup7P2i++67frfmxAdDgvL9de8vKlK/5UyiGUsBMl74ESMFSpmGIkU6zDRyixSBurEeWJJjjWnGD7FpQkeydVDg5I+TQ7NiYvF18d1/rqG2IOAYWfQHkPoFghLFaxQnEqHGI4EShJLUOGSA4iZgKweaPLzZ5ZNevZrOYALuzdz3SYq20ntkXG/tPaOuXwG9ALMpdIXbclPqx17pB/CGLihNh7QCw1RlhqLWJahRObpQolwjDkJNBUMyMl+Q0XonRzRiuwRZitJ5Ad46v0soynCA117BR4CEbyhNF7wIg7TVSaWiQFJ4gxScLFhxAkEgMKq5QYyt4AI0W5DkfHML/Jtj/BBkc6G7z8585XRz7WvULAEqCLgYItog6BRp2geQ/QMG1JmtIUhU9QuAfp2KGEc4sck5haSShjx7wHff8P3zA6NFYaAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=db1c60dc1b99be5017814338b04bcb62"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=431c60dc1b99be5017814338b04bcb46"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=431c60dc1b99be5017814338b04bcb46^sys_idNOT IN1a4d4d1493393a1062aff2f46003d680,5f6dc15493393a1062aff2f46003d63d,b15d0d1493393a1062aff2f46003d61e,dbdc09d093393a1062aff2f46003d60d,fcc3fcdc1bd9be5017814338b04bcb11"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">3f7e4dd493393a1062aff2f46003d6a6</block>
+        <block display_value="">23741021c331f2101fa21613e401311f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -369,18 +369,18 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:07:10</sys_created_on>
         <sys_id>1a4d4d1493393a1062aff2f46003d680</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:28</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:26</sys_updated_on>
         <ui_id>e304fdde-94d2-41b0-ad20-272f58860f58</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXW/TMBT9K5Wfoygfa8X6Ng1NQgImsWkvMEU39k1r4djBdtqVqP+d63x0FeugIB55i8/9Ouf6WOmYaX3TendvrpyTK82Wnx8jJnXA6LtjUrAlqxKo0kue8jxb5FmSZG8u0nKRl2kmckDIWcQ01EiZ3GghvTS66IGIbUC1ISBwg8o0aGe1ETiTbmY0hYV0jYLdw6+z+FoqYXFk14Cl3h4tW3Y/hfyuwUJBiYqa3Xkr9YrKz9UwFV5PImbve+R1dWEe4W6aZKwItNIkYvjkUQuk0RUohxGrQQvwxu4OiEUQt1o9A2upPbVjIfnJye/UO5vPQ2KFpJHjEDwci3F9A8zXRnK8bQLBAfFQqrGGG9XW+uOgIyweK2iVnxZPSOuoHzaBdGAxUqru1mb7aRp4I3UvcAwqw0EdTuBpDWXr0YWLQYU1NSpqaBpaTtFYs5F9MXGp45WiQ1wps6WhwXkx8EA8ph1BfEP42x5+ACuDig/UhooHmiU4yYvepdTOW5Kw79dSfGsDoUHgKKUYtkEJjlvZ+Cuas8GR9T4aLX4J82qeJvPT9rhYnDDBkbu7rleyGcnGBx8Xwcf7/Zc2SXLRE33h+T+q/Rcv4QypL17Cafmv2D/7jf2DljPdnyTJf/sf21+6YrDxqK0f/tfufwwWHia4wTcCuXRE5D5g76b/QAjsyACSH0NbY78GCc/Y/geSJKKiUQYAAA==</values>
+        <values>H4sIAAAAAAAA/+2UW2sbMRCF/4rR87LsJTaN30JLoNA20IS8tGGZlWZtUa2kSlo7rvF/72gvjmmc3uhj36wz0sw5sx/eM9MF2wV/Z668lyvNlp8eEiZ11Oj3nmlokS0ZN1rIII2ueiFhG1BdLAjcoDIW3aw1AmfSz4ymspDeKtjd//wWX0slHI5TLTjqHdCx5f6HUthZrBTUqKjZbXBSr+i5FHRqMmjyS57zsliURZYVry7yelHWeSFKQCjp3vTw9RRi9q5XkhfTxXmk+2mScSLayrOE4WNALZBGN6A8JqwFLSAYtzsqDkHcaPUkrKUO1I7Fy49efqPexXweLzZIGTkOxeOxGtc3yHxtJMcbGw0OSoBajW+4UV2rPww54uKxgU6FafGkdJ76oY2mo4vRUnO7NtuP08BrqfuAY1EZDup4gkBrqLuAPn4YVNhSo6oFa2k5lXVmI/vH5KVNV4oOaaPMloZGolLg0XhKO4L0mvQ3vXwPTsYU76kNPR5s1uAlr3r6qF1wFOHQr6X62kVDQ8AxSjVsgy547qQNVzRng6PrQ/Ic3RNq9/ve4WY0kR75rCKfh8PnLstK0Rt4xvIfvf0XhF/CvJnn2fw84ReLc4SfYftlrItfYB2z/CbVWZb9x/oUa+mrAc8xWz/8r6l+iAgPE/zAjUAuPRm5i9rb6X87FnYEgOSn0ta4LzHCk3b4DjU9xUIBBgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">b77e4dd493393a1062aff2f46003d6aa</block>
+        <block display_value="">af741021c331f2101fa21613e4013124</block>
         <comment/>
         <connected_to>e304fdde-94d2-41b0-ad20-272f58860f58</connected_to>
         <decision_table/>
@@ -396,10 +396,10 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:07:47</sys_created_on>
         <sys_id>5f6dc15493393a1062aff2f46003d63d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:28</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:26</sys_updated_on>
         <ui_id>8e49ee63-c584-468f-8dad-7fec6a92db5f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -407,7 +407,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">7b7e4dd493393a1062aff2f46003d6a8</block>
+        <block display_value="">ef741021c331f2101fa21613e4013121</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -423,18 +423,18 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:07:25</sys_created_on>
         <sys_id>b15d0d1493393a1062aff2f46003d61e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:28</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:26</sys_updated_on>
         <ui_id>e6470e54-c5ae-496e-b241-6fdd9c8c5db7</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/5WPwWrDMBBEf8XsOZQYJyT1LfTUe+gl7kHaXbdLZcloJafB+N8rk0Jz7XEeM8PMDCGnMSc9h5OqfHhoLzMIQQuE2ByQsLb0bHm/rQ/Hetc0R7vdWbTcwwa8Gbg47xVFT8blFcwdRNbsUgdt1cFLGAbjqRKt+JsxJ6anDpYSINHRmdvbf3P4KY4ir2vfN6AYZUwnTDKVlt445aVg8euxu2UyUYx1/CuJUVSCP6/s9cFHt/JJ8BFdQ/zqXbj+seUH63SHZDYBAAA=</values>
+        <values>H4sIAAAAAAAA/5VTyW7bMBD9FYNnW5Ag2Up9C1oESNHGQOPmUhcCl5HNliIZLl5q+N87tGRnObXHeZzlvTfDIzEx2Bj80tx6L9eazH8ciRRkTgTnZc0FL5j4wGCaF/VNUZXlDcsrxhm0ZEw07QAz+xYYb6mKCTiuiAMfVViR+WhFPpquo1qMpB/BHngMILIVOWGBkN4qenj63zq+kUo4SGx/jomlDokEcGR+fPcUDhYaRRkobP/5cfGAxf+q7lK2uMh7Lzc1x/iXNxoj40RiUIwJ7ANoATimpcrDmCQVNBh3uCIOqFho9QJspA7Yi6TkvZd/sHGV53nKbAHlcOhfr2EzeNfDfGMkh4UNErmckUCZGmq4UbHTDz375Dq0FE2+uI5I9NgPbGKdaAyc2seN2X27DLyT+ixweFSGU3WNaAhOMtyQTzuIcvnGmj7+8nYNoKDDaU1HrZV63VhntvI8AQl32VphkLXK7JBZusyM8qQuQydpdof4pzP8RJ1MUr9iGyxOw75r+RzhPq15mldlzhid1DOoJ1XBpxNWFGLSzkoxq1s65XVOTmdbm+eYBPUGDVY0vZuY4LmTNtwihS0Mqk94X1Knz9Pf2nZgMoQCuPRIeJmw+1d54oCHJPlraGfc7yT1BTv9BYeV4iiaAwAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">7b7e4dd493393a1062aff2f46003d672</block>
+        <block display_value="">67741021c331f2101fa21613e401311b</block>
         <comment>As a first step, need to get the value of a system property, which defines the operation mode of subflow</comment>
         <connected_to/>
         <decision_table/>
@@ -450,18 +450,18 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:05:20</sys_created_on>
         <sys_id>dbdc09d093393a1062aff2f46003d60d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:28</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:26</sys_updated_on>
         <ui_id>f9b8ca93-7805-46d6-bd94-d6761c41ab83</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/5VSwWobMRD9lUGn1jWyQ2/OyZCW9tRCQi7dsMjS7FqtVlpGIyfG+N872qybkEOgJw1PT+/NPM1JpcJj4XyXtjn7PqrNr4el8rFiUp+Ud2qj1FJFM6BUDg8Y0ojUDsmh4AcTCj5T7N4HRzhrZEt+5K1lf5D7zoSM54fKJ292Af9PfS2183kM5nj/CnrPkangBVOb01ttQd7jq9WiiYvF1lrMGb6G9LiqxBTBGTZQso898B6hc+2EpN1vtKzhdhKAoWQGQi4UwcA0hoaq+IMcEsQy7OTwGVLXZWTYHeHTFfgIX4gSwTcTXagWtzi56qmZg/GhZgdprGCGORIoozQ2krRa3zRKNwpMx+Iwt1ef45MZxoAb6YYg7xPxDWYLTVmvP7sLUTP5vkfStpAEy3oitg6fgxHX66o1T/ZPpYKrJs5wn3WP/JNq2nz80KinlmW59m3APg39wFo+Y/qGRi2hBv/xWp3PdT0cWp/F5a7O+f2yhvXiKDvi7WvoMdGfTn7mBTv/BRvX+M3QAgAA</values>
+        <values>H4sIAAAAAAAA/+1WTW/TQBD9K6s9QUndJI7Sr1OlUlEJKKKlF1JZm/Wss7DeNfuRJlT578zYTlu1gLgi9RT77ezMe2/Go9xxl2KTYrhyJyHoyvKjrzcDri1h+HzHraiBH/ESlmBcA76oXQl8wJfCJDoY4nOpQ2PE+voRJBfalB76fI3wmCaC50d3T47iuoHCiDkYvHnlE+ydCROogi4ROYRDKUfl8DDPD3MxGk7HQqmxmkyHw7ycqgnGbS8/o/gn6lQS8blzBoRFwPmSqI0GHFYRbAlYWRGLAa+FLUV0fn2PeBDlhTUPwELbiOk4Ba+C/om58zHFKUCVErqz+9eid6uD5cJpCRdN1A4N4TnRE3PTX5LOpNp+7HSQ0aBEMnFrtOqd6uHT521IAetBQ5qIZM9YXS7c7ectoTNtW/n9oXFSmPs3EaPX8xQhUOuSvnrqXQe9/10DwUCNZYtaNI22VdF4t9RtKRRWZ5XBl0wZd4sUafYyIcmGDA0X2Rnipy18LbwmSz5gGrxMJb9Y/SPBOQ0IjMf7+SSH3aHaP9id5Gqye6DKfHcK43x0gHMz3Ae+af0vfiRS1hnZe1K0tlNAkF438QQpLFFhRCFbjJQ/GSJE/hbP93ZmdmfnREoIgZGUvZNWGyNtLAW0g8UFMFUWLeLm30DGjF22CVidQmQeYvKWCdZ+ahmjjBc0qcymeo4/OjCnVIDI5mv2ZsS0ZW+9d569w6E1VOISOkdbMkuhDfnIXDttgfWDyFKDxBqPVOnOjGczzoTCr3VLj67DStSNgSNk41lYOB+xO5LNEn2I28AMh6WqwGcyeZytmLWB1N5WF1Y9ply9svssBO7NbA9XIasgfvLkdly/mvFVEXEOFoWBytVVHTNsRtuGGR8wMv71Md9sNje0lLpR6VbXvy6QlxX3suJeVtzLivsvVlwJUgesckU6z7f/0+hgjctAy8fQrfPfafgesM0vOxnjO/EJAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">53c370101b1dbe5017814338b04bcb33</block>
+        <block display_value="">67741021c331f2101fa21613e4013129</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -477,10 +477,10 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-14 18:44:15</sys_created_on>
         <sys_id>fcc3fcdc1bd9be5017814338b04bcb11</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:28</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:26</sys_updated_on>
         <ui_id>bbd6ed24-adac-4686-8b95-69bbc5ad5ce2</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/61Ty27bMBD8F54tQYpkyfYtQBEgRRsDjZtLUQh8rGy2FMmQlB3X8L93KcnO49RDb5rhPmZnVydi+mD74Dfm1nu51WT140SkICsiOC9qLnjOxJLBPMvrRV4WxYJlJeMMWjIjmnaAkWMJxHuq+kicTm1VwZLmVSLKG56US8qSBeQi4XSR37B2uVwU89SBDw21ssEPa7SH8xmLCOmtosen/1GL76QSDuJUP2fEUoeCAziyOn14CkcLjaIMFLb8/Lh+wOR/deGStr7Y8NGWWBzxL280IuNEVJDPCLwE0AKwTUuVhxnpqBY0GHe8Mg6oWGv1SuykDliLxOAXL/9g4TLLshjZAo7DYXy9wmbyc6T5zkgOaxskahmYQJmacrhRfacfRvVxE9DSXoXLJpDpPdYDG1VHGZOm9nFnDt8uDe+kHgacHpXhVF0RDcFJ1gfwcQe93LyzZsRf3q8BFHTYremotVJvG+vMXg4dUHCXbhWCtFXmgMriBaeUx+lSdJKmd8h/Gugn6mQc9SuWweTY7LuWzz3cxzXPs7LIGKNJXUGdlDmfJyzHG2urQlR1S+e8zsh5sLV57uNAo0GTFc3oJgZ47qQNtyhhD9PUZ7wvqeNPNt7aflIyQQFcehS8idz9mzhxxEOS/C11MO53HPWVO/8FgPrUz8IDAAA=</values>
@@ -525,7 +525,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Developer mode</label>
+        <label>developer_mode</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
         <model display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</model>
@@ -551,14 +551,14 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:04:10</sys_created_on>
         <sys_id>9e9cc1d093393a1062aff2f46003d6f4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:28</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -656,7 +656,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>lego_controller__start_vehicle_without_timer</internal_name>
-        <label_cache>[{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"5 - Lego Controller➛REST API response","reference_display":"REST API response","type":"string","base_type":"string","usedInstances":{"bbd6ed24-adac-4686-8b95-69bbc5ad5ce2":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"flow_variable.developer_mode","label":"Flow Variables➛Developer mode","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"e304fdde-94d2-41b0-ad20-272f58860f58":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e227343e-0f78-43f4-8fd3-6e231809307e"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.developer_mode","label":"Flow Variables➛Developer mode","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"usedInstances":{"e304fdde-94d2-41b0-ad20-272f58860f58":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e227343e-0f78-43f4-8fd3-6e231809307e"}},{"name":"subflow.direction","label":"Input➛Direction","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["direction"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9c35cce6-02a2-4cb7-b1ea-b93a3af1a38a"}},{"name":"subflow.speed","label":"Input➛Speed","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["speed_primary"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"84b406a6-c674-4b52-a4f7-21ebffe8b897"}},{"name":"subflow.time","label":"Input➛Time","type":"string","base_type":"string","usedInstances":{"f66e9a16-d42c-49ab-8e1d-ca812bf99835":["time"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"90d52c37-dd72-4944-a993-803139344919"}},{"name":"f66e9a16-d42c-49ab-8e1d-ca812bf99835.rest_api_response","label":"5 - Lego Controller➛REST API response","reference_display":"REST API response","type":"string","base_type":"string","usedInstances":{"bbd6ed24-adac-4686-8b95-69bbc5ad5ce2":["output-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ff6f260-da93-414a-a6ea-f54cc1f7eb38"}}]</label_cache>
         <master>true</master>
         <name>Lego controller - start vehicle without timer</name>
         <natlang/>
@@ -673,15 +673,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cd6ce8dc1b99be5017814338b04bcb17</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:30</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:28</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -975,20 +975,20 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-14 18:12:04</sys_created_on>
         <sys_id>dd6ce8dc1b99be5017814338b04bcb3d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:30</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:28</sys_updated_on>
         <ui_id>f66e9a16-d42c-49ab-8e1d-ca812bf99835</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+2Y227bOBCGX6XQtWnwJJHyXZAgQIHtFth0c1MUBg9Dh6gsuTokzQZ596Vs2VYc24kBpy0CX3o05Pxz+EDSXx8ib6NRJCShoKUhOiYaYkyCgTMmNebaaJdEgyhXUwieU2/HFZS3UAbbrcqa1ohTwrTCnGhiBU2xjDWhznTLUxpcra9mmbq/7lacXQ8/fbwIdnPjM1tCHo2+fhtEM1WGMHXYfPSw8em1OjOlIQuuYfsPV0uh28TX97PWVoKDEMRAZ/qrW/9Pz16UtpVEBhH8rCG3ELQ4lVUwiKYqt6ouyvtoVJdNMJSg7Oc8u1953Pi8DvtFre/Pyv8XgjI66MUdRWDMWE0g+PXs465km7m4C1WrqxDM1E0Ji53NTeENVItKWXCqyerzvm3h8HlW+yJfLKmVzjZjmyJrpvnfi2JFq52WTQuWpgq6YNbWoM2qS9Fd3RR3q4Jd+nxeru5jVhiV9VxBlebm0kPWNnTemEGk6rr0uqlbuQ9R4788783CuK07kME0qBlP1Wzm88l4Vha3fq4gJDQdTrLwY+iy4i4or/wkHyrTlmEY+qaGl8F+MTdfq9K3NfkUtpkXuvH/5v5HAx9boVoRaThIlOKYIS5BIxULgyQhWmPg1HASPQ6i6r46z1RVrYsYkhj/aNoSLEraFW+8aES7xJR+Vp8FUbfQ1elx0IGJ470Db9azvUiqB+WkeI7d3HYYcq9QsETubClhU1KHWhWanE82OLtaGjvI6LEgkxjjp5jtoOv4TP0alHZAs6ryU2JWdf4luBiqU0YtR4ANIB7LBEkhEqSTGAtJYxEnyVvgQgilbtewYryeTetL2CTm4aFqdJv5cPX18fE5RLvcDuTqZalLri56WrfIP4Qutp+uznLC6w/HywIxScwpkkxwxJnESKVMIJtiRqkWCaXqLfCye2eWreez9vNz/Xbdjw2IDufl5dhLXr4sgj+Vcggl/ETJe6AENJOSMIyEwyocQqlBShuFWJwqiomKKTZvQUm6d1JF74KUT7JjY/Jy8NV1rYu+IeYQUOITKO8BFJMkBksiEXGJRRynCUqd4UhTEUNCeAJYv9HjZs+s6vVsVjMAG3L3UxXmatuNbe6x/7a2djn8BfSCzCVSV22ID2udO+QfglhyQuw9IOa0TgwzBnElw43NMInSRHNkBTCnuBaC/oYHkduc0QpMEWbrCWTHOJVelvEUob6OnQIPwUicMHoPGMVWUemcQSKJKeJc0PDwoRQlqQaJpaOa8TfASLJYhatjmN90259gvSudCbX8fuerI1/rXiFgCdB5T8EWUYdAI0/QvAdouDLUOeZQOILCO0gRi9I4NshygZkRlHF+zHfQt/8BNUhwpFYaAAA=</values>
+        <values>H4sIAAAAAAAA/+2Y227bOBCGX6XQtWlQPCt3QYIABbZbYNPtTVEYPIwcYmXJ1SFpNsi7L2XJtuLYTgw47SLwpUcjzs9/5oNIf3uIvIvOIqliAkbZ2PDYAMdxCDBKlcHMWJOKaBTlegYhc+bdpILyFsoQu9VZ0waBamBY8IQabkiMY+OcYVoLbXSMJQ2pzlfzTN9/7d/49PFyfP41xO2Nz1wJeXT27fsomusylKnD4mcPG49eqzPTBrKuwofrpdBt4uv7eRsrIYVQxEIf+qN//69BvChdKykeRfCzhtxB0JLqrIJRNNO503VR3kdnddmEQAnafc6z+1XGjc/rsF7U5v6s/L+hKCWjQd3gn7UTPYWQN4hPess295Je6lpfh2K2bkroVrY3hbdQdU45SHWT1RfDWJfweV77Iu9eqbXJNmvbImtm+Z+dWdFqpWXTQqSpgi6Ytx60u+q3mF7fFHcrw658vrCrf5gVVmeDVNClvbnykLUNXTRmFOm6Lr1p6lbuQ9T4L8970wW3dQcymAU1k5mez30+nczL4tYvFIQNzcbTLPwYp1lxF5RXfpqPtW1tGIe+6fFViF8uwl916VtPPoVlFkY3/u/c/2jgYys0DLKyDBRKMKeIKTBIc2mRimNjMDBiWRw9jqLqvrrIdFWtTQybmPxoWgs6S3vzJl0j2lds6ef1eRB1C71Pj6MeTMz3Drxdz3a3qQGU0+I5dovYYci9QsESufOlhE1JPWpVaHI+3eDsehnsISPHgkxhjJ9itoOu4zP1a1DaAc3K5afErHz+JbhYYhJKHEOALSDGlUBKSoGM4FgqwiUX4i1wiWNC0l3DivF6Np0vYZOYh4eqMe3Ox6unj4/PIdqVdiBXL0tdcnU50LpF/iF00f109ZETXv9zvBzEVnBGkKKSIUYVRjqhErkEU0KMFITot8DL7Z1Zup7P2i++67frfmxAdDgvL9de8vKlK/5UyiGUsBMl74ESMFSpmGIkU6zDRyixSBurEeWJJjjWnGD7FpQkeydVDg5I+TQ7NiYvF18d1/rqG2IOAYWfQHkPoFghLFaxQnEqHGI4EShJLUOGSA4iZgKweaPLzZ5ZNevZrOYALuzdz3SYq20ntkXG/tPaOuXwG9ALMpdIXbclPqx17pB/CGLihNh7QCw1RlhqLWJahRObpQolwjDkJNBUMyMl+Q0XonRzRiuwRZitJ5Ad46v0soynCA117BR4CEbyhNF7wIg7TVSaWiQFJ4gxScLFhxAkEgMKq5QYyt4AI0W5DkfHML/Jtj/BBkc6G7z8585XRz7WvULAEqCLgYItog6BRp2geQ/QMG1JmtIUhU9QuAfp2KGEc4sck5haSShjx7wHff8P3zA6NFYaAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=dd6ce8dc1b99be5017814338b04bcb3d"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=cd6ce8dc1b99be5017814338b04bcb17"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=cd6ce8dc1b99be5017814338b04bcb17^sys_idNOT IN148e8dd493393a1062aff2f46003d635,37c370101b1dbe5017814338b04bcb91,5c8e8dd493393a1062aff2f46003d630,908e8dd493393a1062aff2f46003d632,d88e8dd493393a1062aff2f46003d633"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">b77e4dd493393a1062aff2f46003d6aa</block>
+        <block display_value="">af741021c331f2101fa21613e4013124</block>
         <comment/>
         <connected_to>e304fdde-94d2-41b0-ad20-272f58860f58</connected_to>
         <decision_table/>
@@ -1004,10 +1004,10 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:12:30</sys_created_on>
         <sys_id>148e8dd493393a1062aff2f46003d635</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:30</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:28</sys_updated_on>
         <ui_id>8e49ee63-c584-468f-8dad-7fec6a92db5f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1015,7 +1015,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">53c370101b1dbe5017814338b04bcb33</block>
+        <block display_value="">67741021c331f2101fa21613e4013129</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1031,10 +1031,10 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-14 18:44:27</sys_created_on>
         <sys_id>37c370101b1dbe5017814338b04bcb91</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:30</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:28</sys_updated_on>
         <ui_id>bbd6ed24-adac-4686-8b95-69bbc5ad5ce2</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/61Ty27bMBD8F54tQ4rl5y1IECBFGgO1m0sRCEtyZbOhSIWk7LiG/71LS340vfTQG3e4j5lZcs9sE+om+KW99V6tDJv92DMl2YxJIQZjIUXG5ZTjMM3GkywfDCY8zbngWLIeM1AhZbYtKN6AbiKw35ejEU4hGyUyvxFJPgWeTDCTiYBJdsPL6XQyGPYd+lBArQo61NZ4PByoiVS+1rB7+R+9xFpp6TCqeu2xGhwRDujYjDQaOhjQT8q80Zi/kv/VAw0cNaXOTyZ8NiXs6hj/9NZ00VNX8mUxfybIOhkpZT2GHwGNRJpcgvbYYxUYCcG63RlxCHJu9AVYk5CWfwUfXv2iWXmapjGzRFIjsL09h0VncAuX9xBgEVwjQuPwZIRVAn3rg8QSGh3urrE2YV4HRZqOJQG4PlVb3VTmuXWBnRuc9klI44kE1lFq5N4JKRdru/12YvmgzNGV7lJbAfocQQhO8SZEPnvWqOUfFrfxJ5NRY0XTigrqWplVUTu7UccJRLjqrzQF/VLbLTGL/6APIqrrk/3QfyD8/gi/gFNR6ldqQ8Vx2Hej3ht8jM9lmOaDlHNIxiMcJ3kmhgnP6KWWo4EcjUsYinHKDj3md/5Og/cXk2g7xXsTJbaWdeYUrb+xRDhVh1sitcHOh0N8pSZ+3nYrm47beXFCeZKwjNjjVZ7c0RNV4hraWvcWxV+ww2+pz+KIGgQAAA==</values>
@@ -1042,7 +1042,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">7b7e4dd493393a1062aff2f46003d672</block>
+        <block display_value="">67741021c331f2101fa21613e401311b</block>
         <comment>As a first step, need to get the value of a system property, which defines the operation mode of subflow</comment>
         <connected_to/>
         <decision_table/>
@@ -1058,18 +1058,18 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:12:30</sys_created_on>
         <sys_id>5c8e8dd493393a1062aff2f46003d630</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:30</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:28</sys_updated_on>
         <ui_id>f9b8ca93-7805-46d6-bd94-d6761c41ab83</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1W207bQBD9ldU+tTSYJI6AwFNEiorUlqpQXhpkbexZZ9v1rruXQIry753xJSB6+YHyFPvs7Mw5Z8ajPHAbQx2Dv7Yz71Vp+MnX2wFXhjB8fuCq4CecD7gRFeBTAWvQtgaXVbYAxNdCRzoY4nOhfK3F5uYJlK+ULhx0eWvhME0Ax08enh01daYwzfNRMZym6TQVo+HhWEg5lpPD4TAtDuUEE2qxBI2h854I64j8jWDY1IQvrdUgTAe877JcuwgH50J7irSuIGajAYf7AKYApCTpbMArYQoRrNvsEAeiuDT6EVgpE1qrKnHv1U8smo4pTgKKzKE9271mnVktLOciiKvgYh6i60LzlVU5+NaeAqSIOpw9xdqAyzooiybylLSJpe6vWx0r87F1he8y9M2RnegOnv/euuiRJNRkBCnrZMqrlb373Ks4V6bxrDvUNhd69yZCcGoZA/F94FFdP+9EC/2xF6ChwrJZJepamTKrnV2rphQKq5JS40sitb1DijS3icjJhgS7JJJzxOcNfCOcIks+YBq8TCW/GPUjwgWNG4zHR+kkhf2hPDren6Rysn8si3T/EMbp6BincHgEfDvgfuPPtPD+0UxsY/YjktbW2s6lrGlEcyV3qg4zJLXGK9hY6DHy4tmQIvKveH6wtzB7e7McO+8ZiTuYNWoZqWXRo0EsrIDJImsQu/wGeUjYVZOAVdEH5gAnyzDBmg82YZTxkgaemVgt8Ud5ZqX0ENhyw96MmDLsrXPWsXc4+5pKXEHrcUNmLZQmZ5lt5s+zbp5ZrJFY7ZAq3VnwZMGZkPjN9/ToOtyLqtZwgmwc8yvrAvYrZ4tIH3ofmOD4lCW4JI8Opy0kTSA1vNGFVU8pV6dsl4XAg4Xp4NInJYRPjtwOm1cLfp8FnIxVpqG0VVmFBJvRtGHBB4yMf33Kt9vtLa22dnheFuHLInxZhC+L8L9dhAXkymOVa9J50f83pIMNLhuVP4XurPtO4/iIbX8BkGVaoWUKAAA=</values>
+        <values>H4sIAAAAAAAA/+1W207bQBD9ldU+tTQxSRwBgScERUVqS1UoLw2yNvass+16191LSIry752xnYAoVP2APMU+OztzzpnxKA/cxlDH4G/sqfeqNPz4+12PK0MYPj9wVfBjPoFJng+LwSRNJ6kYDg5GQsqRHB8MBmlxIMe8x42oACMLWIC2NbissgUgvhA60sEAnwvlay1Wt0+gfK504aCrWwuHaQI4fvzw7Oh/eWgxA/0SkdcIhlVN+MxaDcJ0wMcuy42LsH8htKdI6wpiNuxxWAYwBSAlSWc9XglTiGDdaos4EMWV0Y/AXJmAGTkFL736jUXTEcVJQJE5tGfb16wzq4XluQjiOriYh+i60HxuVQ6+tacAKaIOZ0+xNuCqDsqiiTwlbWKmN9etjpX53LrCtxk2zZGd6A4+/7t10SNJqMkIUtbJlNdze/91o+JCmcaz7lDbXOjtmwjBqVkMxPeBR3XzvBMt9GIvQEOFZbNK1LUyZVY7u1BNKRRWJaXGl0Rqe48Uaa4TkZMNCXZJJBeInzfwrXCKLPmEafAylfxm1K8IlzRuMBodpuMU+gN5eNQfp3LcP5JF2j+AUTo8wikcHAJf97hf+TMtvH80E9uY/YqktbW2cylrGtFcyZ2qwymSWuAVbCxsMPLi2ZAi8q94vr83NXt7pzl23jMSt3/aqGWklkWPBrEwByaLrEHs7AfkIWHXTQJWRR+YA5wswwRrPtiEUcYrGnhmYjXDH+WZldJDYLMVezdkyrD3zlnHPuDsaypxDa3HDZmFUJqcZbaZP8+6eWaxRmK1Q6p0Z8qTKWdC4je/oUfXYSmqWsMxsnHMz60L2K+cTSN96JvABMenLMEleXQ4bSFpAqnhjS6sekK5OmXbLATuT00Hlz4pIXxx5HZYvZnyZRZwMuaZhtJWZRUSbEbThinvMTL+7Qlfr9d3tNra4dktyt2i3C3K3aLcLcpXFmUBufJY5YZ0Xm7+W9LBCpeNyp9C99b9pHF8xNZ/ANo3PwilCgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">3f7e4dd493393a1062aff2f46003d6a6</block>
+        <block display_value="">23741021c331f2101fa21613e401311f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1085,18 +1085,18 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:12:30</sys_created_on>
         <sys_id>908e8dd493393a1062aff2f46003d632</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:30</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:28</sys_updated_on>
         <ui_id>e304fdde-94d2-41b0-ad20-272f58860f58</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0HPxvijCWveSkph0K2wlr5sxVxLciImS54kJ81C/vuubNkJa7YlbI97i879Ouf6HrIjunVN6+yTvrFWLBWZf36JiFAew987IhiZkyqBKr2mKc2zWZ4lSfbuKi1neZlmLAcOOYmIgppjJtWKCSe0KjogImuQrQ8wvuZSN9xMas34RNiJVhhmwjYSts+/z6IrIZnhgV0DBns7bsh891PoXLYSSi4xdTHQndx3yK91uG3jceuMUMvwvg9dHgdQG+ZZpUlE+KvjinHkU4G0PCI1KAZOm+2IGA7sQckDsBLKYTvik1+t+I4Ds+nUJ1YcJVLeB8dnEbbXw9UtOEAqLXWtCal0pQXltl8O4xW00i2OsT7hofFS+xIHpRyqtWxr9bHfCBkbDB8LkdYiCd54pZ560FE9rvTm08DyTqhuKyEoNQU5vsDh7srWeT47wiWvsVFRQ9PgRovG6LXoipFLHS8lPuJK6g0O9dcaA/XEY1wsxHeI33bwMxjhVXzANljc0yzBClp0l43tcE2c7CNit3YhwdqDSNxu8a31FHvJQVzR78eXUCMad4OT1zzo2EfBKNcwraZpMj19elezEwd25JHdrtO2DvTj0Q2Fd8N+/6VNkpx11N8456Lay/x0hqg3fjot9BITZX8wkZdypoeSJPlvor82kbBFf/pBWzf8H3roxRuhnznumgqL1J489n74T/KBLR6XoMfQRpuvXtQB2/8A5GiCh90GAAA=</values>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9FYNnQdASG41vgYMABdIGaIJc2kAYkVRMlCJVLnZcwf/eoTYbibsY7bE388323mge3BLtXeOdfdBX1opnRZafnyIiVMDwd0sU1JwsCdWKCSe0KjogIhuQPgQY33CpG25mtWZ8JuxMKwwzYRsJu8dfZ9G1kMzwYWoDBns7bsiyfRUSDJtUCVTpJU1pni3yLEmydxdpucjLNGM5cMixoYSSS0xdjXRntx0S/VSH2zUBt84I9Ty8b4cu9yOoDQus0iQi/MVxxTjyqUBaHpEaFAOnzW5CDAd2p+QBWAvlsB0JyS9WfMeB2XweEiuOEinvg9OzGLbXw9U1OEAqnjpvhlS61oJy2y+H8Qq8dKtjrE+4a4LUvsRBKcdqLX2tPvYbIVOD8WMh4i2S4E1QGqgPOqr7td5+GlneCNVtZQhKTUFOL3C4u9K7wKclXPIaGxU1NA1utGiM3oiuGLnU8bPER1xJvcWh4QpjoIF4jIuF+Abx6w5+BCOCig/YBot7miVYQYvuYrEdromTfUTszq4kWHsQidstvvlAsZc8iCv6/YQSakTjrnDyhg869tFbAxzdftt2nDcDrXi68iJc+X7/xSdJzjpKbxxxVu15PrmEeTVPk/lpn1wsTvnkhEPONEf2G3MEKX/ojSRJ/pvjr80hbNGf9KCtG/4PvfEUjNDPnHZNhUVqDwF7P/6HhMAOj0vQY2irzdcg6oDtfwAcA0c0jQYAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">7b7e4dd493393a1062aff2f46003d6a8</block>
+        <block display_value="">ef741021c331f2101fa21613e4013121</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1112,10 +1112,10 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:12:30</sys_created_on>
         <sys_id>d88e8dd493393a1062aff2f46003d633</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:30</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:28</sys_updated_on>
         <ui_id>e6470e54-c5ae-496e-b241-6fdd9c8c5db7</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/5VTyW7bMBD9FYNnW5DgRalvgYMAKdIYqN1c6sIYkSObDUUqXLzU8L93aMlL00t70zzO8t6b0YGZ4Ovg3dzcOydXmo2/H5gUbMwE5/2cC54V4lOBwzTL77JBv39XpIOCF1iyLtNQIWU2LSjegAoROCyYRReUX7BxZ8EmpqpAi450HdwhDx5FsmBHKhDS1Qr2r/9bx9dSCYuR7Y8uq8ESEY+WjYm7pg8N6lnqN2r5V/K/alNQoKLU6VncR7F+X8f4pzO6jZ7bks+z6QtBxopIKesy3HnUAmlyCcphl0VZ4I3dXxCLIKZaXYE1CWn4V7Bz8hfNGqRpGjNLJDUcm9dLuGzNbODyATzMvA3cB4tnI4zk6BofBJZATk9usSZhWntJmk4lHgp1rjYqVPqlcYFdGpx3R0hwRALrKDVyb4WUs7XZfj2zfJT65Er7qAwHdYnAeysL2rOLmwxy/ofFTfzBZFRY0bRlBXUt9WpZW7ORpwlEuEpWioKkVGZLzOJ9J8CjuoTsh+SR8IcT/ApWRqlfqA0Vx2HftHwP+BTPZZgO+mlRQC8fYd4bZHzYK7JM9MpRX4zyEoY8T9mxy9zeTRQ4dzWJtrN8D1FiY1lrzrLxN5ZwK2t/T6Q22PpwjFeq40/ZbGXTcrssjktHEuYRe7rJE3s6Uclvoa2xb1H8FTv+BkF/INjyAwAA</values>
@@ -1160,7 +1160,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Developer mode</label>
+        <label>developer_mode</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
         <model display_value="Lego controller - start vehicle without timer">cd6ce8dc1b99be5017814338b04bcb17</model>
@@ -1186,14 +1186,14 @@
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-12-09 17:12:29</sys_created_on>
         <sys_id>888e8dd493393a1062aff2f46003d627</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:30</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1280,24 +1280,24 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>431c60dc1b99be5017814338b04bcb46</sys_id>
         <latest_snapshot>cd6ce8dc1b99be5017814338b04bcb17</latest_snapshot>
-        <compiler_build>glide-zurich-07-01-2025__patch1-hotfix1a-09-24-2025_10-14-2025_2100.zip</compiler_build>
+        <compiler_build>glide-zurich-07-01-2025__patch4-11-14-2025_12-03-2025_1405.zip</compiler_build>
         <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=431c60dc1b99be5017814338b04bcb46"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=431c60dc1b99be5017814338b04bcb46^sys_idNOT IN116ce8dc1b99be5017814338b04bcb57"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@29c31bb</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"116ce8dc1b99be5017814338b04bcb57","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Lego controller - start vehicle without timer">431c60dc1b99be5017814338b04bcb46</plan_id>
-        <snapshot>cd6ce8dc1b99be5017814338b04bcb17</snapshot>
+        <snapshot>560550a1c331f2101fa21613e40131c3</snapshot>
         <sys_created_by>attila.varga</sys_created_by>
         <sys_created_on>2025-11-14 18:12:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>116ce8dc1b99be5017814338b04bcb57</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-12-09 17:12:31</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 10:11:29</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

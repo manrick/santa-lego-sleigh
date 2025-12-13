@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_skill_config">
+    <sys_gen_ai_skill_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <channels/>
+        <discoverable>true</discoverable>
+        <hint>Santa Claus sleigh controller Agent</hint>
+        <skill_id display_value="Santa Claus sleigh controller Agent">894388ad9335b2101bddb4aa6aba1007</skill_id>
+        <supervision/>
+        <sys_class_name>sys_gen_ai_skill_config</sys_class_name>
+        <sys_created_by>attila-jeno.varga@t-systems.com</sys_created_by>
+        <sys_created_on>2025-12-13 08:56:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1143c8ad9335b2101bddb4aa6aba1001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Santa Claus sleigh controller Agent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sys_gen_ai_skill_config_1143c8ad9335b2101bddb4aa6aba1001</sys_update_name>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 08:56:12</sys_updated_on>
+        <use_knowledge_graph>false</use_knowledge_graph>
+        <visible>true</visible>
+    </sys_gen_ai_skill_config>
+</record_update>

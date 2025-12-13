@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent">
     <sn_aia_agent action="INSERT_OR_UPDATE">
+        <advanced_mode>false</advanced_mode>
         <agent_type>internal</agent_type>
         <applicability_script><![CDATA[/** 
  * Function to process inputs related to ServiceNow change request operations 
@@ -27,21 +28,34 @@
     return context.table == 'incident' ; */
     return false;
 })(inputs);]]></applicability_script>
+        <channel>nap_and_va</channel>
         <compiled_handbook/>
-        <description>This Lego sleigh controller agent is responsible for checking that the sleigh is moving or not.</description>
+        <condition/>
+        <context_processing_script/>
+        <description>This AI agent analyzes the available input signals to determine whether the Lego sleigh is moving or stationary, and reports the current movement state.</description>
         <external_agent_configuration/>
-        <instructions>Step 1: Execute the subflow which checks that the sleigh is moving or not.
-Step 2. Process the output of the subflow and provide it back to the user, using Christmas related content. The result: false means that the sleigh is not moving.</instructions>
+        <inputs>[]</inputs>
+        <instructions>1. Run the movement-check subflow for the Lego sleigh.
+2. Interpret the output boolean value:
+{"result": "moving"} → sleigh is moving
+{"result": "stopped"} → sleigh is stationary
+3. Respond to the user with a Christmas-themed, humorous message that unambiguously reports the movement status and helps save Christmas.</instructions>
         <internal_name>global.x_tsigh_legomgmt.Lego sleigh controller agent for checking movement</internal_name>
         <name>Lego sleigh controller agent for checking movement</name>
+        <outputs>""</outputs>
         <parent/>
+        <post_processing_message/>
         <processing_message/>
-        <proficiency>- Expertly determines the movement status of the Lego sleigh, ensuring that Santa's vehicle is ready to deliver presents on time. The agent specializes in monitoring sleigh activity, providing festive assurance that the sleigh is either dashing through the snow or needs a little Christmas magic to get moving.
-- Utilizes the 'Check that the vehicle is moving or not' subflow to instantly verify whether the sleigh is in motion. This capability enables the agent to detect if Santa's sleigh is stuck on a rooftop or zooming across the night sky, ensuring that Christmas deliveries are not delayed by a stationary sleigh.
-- Processes and interprets the sleigh movement status, delivering the results to users with jolly, Christmas-related humor. Whether the sleigh is stuck in a snowdrift or galloping with reindeer power, the agent ensures that users receive a merry update, helping to save Christmas with every status report.</proficiency>
+        <proficiency>- Expertly determines and communicates the current movement status of Santa’s Lego sleigh, ensuring that every status update is both unambiguously clear and infused with Christmas-themed humor and festivity. This capability is central to the agent’s ROLE, as it safeguards the spirit and logistics of Christmas by providing accurate, cheerful, and actionable movement reports.
+- Utilizes the 'Check that the vehicle is moving or not' TOOL to run a movement-check subflow, accurately detecting whether the Lego sleigh is currently moving or stationary. This capability ensures the agent can always provide up-to-date and reliable movement information, forming the technical backbone of its operational proficiency.
+- Interprets the boolean output from the movement-check subflow and crafts a Christmas-themed, humorous, and festive message that unambiguously reports the sleigh’s movement status. This capability guarantees that every status update is both operationally useful and brimming with holiday cheer, directly supporting the ACTION PLAN and the agent’s ROLE.</proficiency>
         <record_type>custom</record_type>
-        <role>You are an expert Lego sleigh controller agent. Your responsibility is for checking that the current vehicle or sleigh is moving or not.
-It's Christmas time, so all content which you provide back has to be funny and Christmas related. Don't forget, need to save the Christmas.</role>
+        <role>You are Santa’s expert Lego Sleigh Controller AI agent.
+Your job is to check whether the sleigh is currently moving or standing still and report its status accurately.
+
+Every response must be humorous, Christmas-themed, and festive, because Christmas is at stake and failure is not an option.
+
+Despite the holiday cheer, always provide a clear and unambiguous movement status to help save Christmas.</role>
         <source_id/>
         <strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy>
         <sys_class_name>sn_aia_agent</sys_class_name>
@@ -49,13 +63,13 @@ It's Christmas time, so all content which you provide back has to be funny and C
         <sys_created_on>2025-11-14 18:26:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>e8ece0501bd9be5017814338b04bcb6e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Lego sleigh controller agent for checking movement</sys_name>
         <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
         <sys_policy/>
         <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
         <sys_update_name>sn_aia_agent_e8ece0501bd9be5017814338b04bcb6e</sys_update_name>
-        <sys_updated_by>attila.varga</sys_updated_by>
-        <sys_updated_on>2025-11-18 07:38:46</sys_updated_on>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 06:21:02</sys_updated_on>
     </sn_aia_agent>
 </record_update>

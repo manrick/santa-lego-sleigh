@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_agent_access_role_configuration">
+    <sys_agent_access_role_configuration action="INSERT_OR_UPDATE">
+        <action>limit_to_roles</action>
+        <agent>b2712dec1b11721085b12fc8b04bcbf8</agent>
+        <agent_table>sn_aia_agent</agent_table>
+        <allow_all_session_roles>false</allow_all_session_roles>
+        <description/>
+        <name>b2712dec1b11721085b12fc8b04bcbf8</name>
+        <role_list name="snc_internal">7fcaa702933002009c8579b4f47ffbde</role_list>
+        <sys_class_name>sys_agent_access_role_configuration</sys_class_name>
+        <sys_created_by>attila-jeno.varga@t-systems.com</sys_created_by>
+        <sys_created_on>2025-12-13 06:41:12</sys_created_on>
+        <sys_id>806463599331b2101bddb4aa6aba10a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b2712dec1b11721085b12fc8b04bcbf8</sys_name>
+        <sys_package display_value="LegoMgmt" source="x_tsigh_legomgmt">613dfec81b5d729085b12fc8b04bcb35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegoMgmt">613dfec81b5d729085b12fc8b04bcb35</sys_scope>
+        <sys_update_name>sys_agent_access_role_configuration_806463599331b2101bddb4aa6aba10a8</sys_update_name>
+        <sys_updated_by>attila-jeno.varga@t-systems.com</sys_updated_by>
+        <sys_updated_on>2025-12-13 06:41:12</sys_updated_on>
+    </sys_agent_access_role_configuration>
+</record_update>
